@@ -105,7 +105,3 @@ for texto, sentimento in zip(novos_textos, predicoes):
 3. Pesquise sobre outras abordagens de aprendizado supervisionado.
 
 ---
-
-### **🔜 Próxima Aula**
-- Como avaliar modelos de aprendizado de máquina.
-- Introdução a redes neurais e modelos mais avançados.
