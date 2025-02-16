@@ -1,5 +1,3 @@
-Aqui está a versão formatada em Markdown dos combinados para a sala de aula:
-
 # Combinados para as Aulas de Laboratório - Prof. Rafael
 
 Nós, alunos do curso de Qualificação Profissional, concordamos com os seguintes combinados para garantir um ambiente organizado, produtivo e respeitoso durante as aulas no laboratório.
