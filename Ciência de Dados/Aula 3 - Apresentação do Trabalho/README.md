@@ -51,10 +51,11 @@
 - Grupo 4: [TEMA] - [ALUNOS]
 
 #### 2C
-- Grupo 1: [TEMA] - [ALUNOS]
-- Grupo 2: [TEMA] - [ALUNOS]
-- Grupo 3: [TEMA] - [ALUNOS]
-- Grupo 4: [TEMA] - [ALUNOS]
+- Grupo 1: Séries Temporais - Rafael, Nícolas, Yan, Antôny
+- Grupo 2: Feature Engineering - [Francisco, Arthur Feitosa, Caio, Nicholas
+- Grupo 3: Deep Learning - Victória, Marília, Lara, Israel
+- Grupo 4: Machine Learning - Gustavo, Vinícius, Sávio, Luiz
+- Grupo 5: Árvore de Decisão - Vítoria Santana, Sophia, Letícia, Krist, Érick
 
 #### 2D
 - Grupo 1: [TEMA] - [ALUNOS]
@@ -82,7 +83,7 @@
 - Grupo 3: [TEMA] - [ALUNOS]
 - Grupo 4: [TEMA] - [ALUNOS]
 
-#### 3C
+#### 3C - Dia da Apresentação: 17/02/2025
 - Grupo 1: [Clustering - Arthur de Alemar, Gustavo Freitas, Sofia Vicente, Acauã, José Bueno 
 - Grupo 2: Deep Learning - Geovanna, Ana Clara, Raíssa Abrantes, José Freitas
 - Grupo 3: Sistemas de Recomendação - [Ana Paula, Luíz Cláudio, Raiane, Raíssa dos Santos
@@ -92,11 +93,12 @@
 - Grupo 7: Árvore de Decisão - Orlando, Eymard,Antonio
 - Grupo 7: Big Data - André, Eduardo, Thalles, Heitor
 
-## ⏱️ Tempo de Apresentação
+## ⏱️ Tempo de Apresentação - Máximo
 - Teoria: 20 minutos
 - Demonstração prática: 20 minutos
 - Exercícios e discussão: 20 minutos
 - Total: 60 minutos
+- Total Mínimo: 20 minutos
 
 ## 📊 Critérios de Avaliação
 - Domínio do conteúdo
