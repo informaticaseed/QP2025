@@ -83,10 +83,14 @@
 - Grupo 4: [TEMA] - [ALUNOS]
 
 #### 3C
-- Grupo 1: [TEMA] - [ALUNOS]
-- Grupo 2: [TEMA] - [ALUNOS]
-- Grupo 3: [TEMA] - [ALUNOS]
-- Grupo 4: [TEMA] - [ALUNOS]
+- Grupo 1: [Clustering - Arthur de Alemar, Gustavo Freitas, Sofia Vicente, Acauã, José Bueno 
+- Grupo 2: Deep Learning - Geovanna, Ana Clara, Raíssa Abrantes, José Freitas
+- Grupo 3: Sistemas de Recomendação - [Ana Paula, Luíz Cláudio, Raiane, Raíssa dos Santos
+- Grupo 4: IA Generativa - [Cibele, Pedro, Camila, Rafaella
+- Grupo 5: Mineração de Dados - [Gabriel, Henrique, Jayana, Marcos, Guilherme
+- Grupo 6: Governança e Ética em IA - [Sâmia, Peter
+- Grupo 7: Árvore de Decisão - Orlando, Eymard,Antonio
+- Grupo 7: Big Data - André, Eduardo, Thalles, Heitor
 
 ## ⏱️ Tempo de Apresentação
 - Teoria: 20 minutos
