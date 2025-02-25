@@ -92,14 +92,14 @@
 - Grupo 7: Visão Computacional - Enrico, Micaella, Thiago, Ruan, Lisandra
 
 #### 3B
-- Grupo 1: [Big Dadata - Hyago, Luiz, Davi, Rafaella
+- Grupo 1: Big Dadata - Hyago, Luiz, Davi, Rafaella
 - Grupo 2: Mineração de Dados - Davi A, Victor, Pedro, Gustavo M
 - Grupo 3: IA Generativa - Lucas, Marlon, Carlos Eduardo
 - Grupo 4: Sistemas de Recomendação - Agda, Letícia, Emilly
 - Grupo 5: Clustering - Davi V, Rafael, Sara, Nabor
 - Grupo 6: Árvores de Decisão - Anna Júlia, Isabela
 - Grupo 7: Análise Exploratória de Dados - João Vítor, Lara, Roberto, Maria Vítoria, Ana Clara
-Grupo 8: Governança e Ética em IA - Akira, Luiz
+-Grupo 8: Governança e Ética em IA - Akira, Luiz
 
 
 #### 3C
