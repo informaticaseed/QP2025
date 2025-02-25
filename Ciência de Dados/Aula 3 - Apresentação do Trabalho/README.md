@@ -5,6 +5,7 @@
 - **Aplicação prática**: Casos de uso reais
 - **Implementação em Python**: Código funcional no Google Colab
 - **Exercícios de fixação**: Atividades práticas para consolidar o aprendizado
+- Dia da apresentação semana **17 de Março**
 
 ## 📚 Status dos Tópicos
 
@@ -39,11 +40,16 @@
 ### 2º Ano
 
 #### 2A
-- Grupo 1: [TEMA] - [ALUNOS]
-- Grupo 2: [TEMA] - [ALUNOS]
-- Grupo 3: [TEMA] - [ALUNOS]
-- Grupo 4: [TEMA] - [ALUNOS]
-
+- Grupo 1: [Classificação - Adryan, Lívia, Enzo, Asafe
+- Grupo 2: [Processamento de Linguagem Natural (PLN) - Andressa, Ana Beatriz, Laura, Anne
+- Grupo 3: [Árvores de Decisão - Pedro, Artur, Vitor, Gustavo
+- Grupo 4: Regressão Linear e Logística - Samara, Yasmin
+- Grupo 5: Análise Exploratória de Dados - Riquelme, João Davi, Nathan
+- Grupo 6: Visualização de Dados - Rafaela, Erick, Yago
+- Grupo 7: Clustering - João Pedro, Arthur, Guilherme
+- Grupo 8: Feature Engineering - Luiz Eduardo, Carolinne, Ana Carolina, Sara
+- Grupo 9: Séries Temporais - Maria Eduarda, Beatriz, Maria Clara
+- Grupo 10: Deep Learning - Sabrina, Rebeca
 #### 2B
 - Grupo 1: [TEMA] - [ALUNOS]
 - Grupo 2: [TEMA] - [ALUNOS]
@@ -51,11 +57,12 @@
 - Grupo 4: [TEMA] - [ALUNOS]
 
 #### 2C
-- Grupo 1: Séries Temporais - Rafael, Nícolas, Yan, Antôny
+- Grupo 1: Séries Temporais - Rafael, Nicolas, Yan, Antôny, Gabriela
 - Grupo 2: Feature Engineering - [Francisco, Arthur Feitosa, Caio, Nicholas
 - Grupo 3: Deep Learning - Victória, Marília, Lara, Israel
 - Grupo 4: Machine Learning - Gustavo, Vinícius, Sávio, Luiz
 - Grupo 5: Árvore de Decisão - Vítoria Santana, Sophia, Letícia, Krist, Érick
+- Grupo 6: Visualização de Dados - Lucas Maia, Lucas Lima, Valentina, Maria
 
 #### 2D
 - Grupo 1: [TEMA] - [ALUNOS]
@@ -72,10 +79,13 @@
 ### 3º Ano
 
 #### 3A
-- Grupo 1: [TEMA] - [ALUNOS]
-- Grupo 2: [TEMA] - [ALUNOS]
-- Grupo 3: [TEMA] - [ALUNOS]
-- Grupo 4: [TEMA] - [ALUNOS]
+- Grupo 1: Governança e Ética em IA - Débora, Bruna, Maria Letícia, Eduarda e Hosana
+- Grupo 2: IA Generativa - Paulo César, Nícolas, Ítalo, Wallison, Eduardo
+- Grupo 3: Processamento de Linguagem Natural (PLN) - João, Gabriel Marion, Davi, Yuri
+- Grupo 4: Mineração de Dados - Arthur Bueno, Júlio Cédric, Maria Clara, Enzo, Felipe
+- Grupo 5: Visualização de Dados - Ian, Victor, Vinícius
+- Grupo 6: Mineração de Dados - Geovanna Vida, Jéssica, Luz, Eloá
+- Grupo 7: Visão Computacional - Enrico, Micaella, Thiago, Ruan, Lisandra
 
 #### 3B
 - Grupo 1: [TEMA] - [ALUNOS]
@@ -83,7 +93,7 @@
 - Grupo 3: [TEMA] - [ALUNOS]
 - Grupo 4: [TEMA] - [ALUNOS]
 
-#### 3C - Dia da Apresentação: 17/02/2025
+#### 3C
 - Grupo 1: [Clustering - Arthur de Alemar, Gustavo Freitas, Sofia Vicente, Acauã, José Bueno 
 - Grupo 2: Deep Learning - Geovanna, Ana Clara, Raíssa Abrantes, José Freitas
 - Grupo 3: Sistemas de Recomendação - [Ana Paula, Luíz Cláudio, Raiane, Raíssa dos Santos
