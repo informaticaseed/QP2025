@@ -51,10 +51,14 @@
 - Grupo 9: Séries Temporais - Maria Eduarda, Beatriz, Maria Clara
 - Grupo 10: Deep Learning - Sabrina, Rebeca
 #### 2B
-- Grupo 1: [TEMA] - [ALUNOS]
-- Grupo 2: [TEMA] - [ALUNOS]
-- Grupo 3: [TEMA] - [ALUNOS]
-- Grupo 4: [TEMA] - [ALUNOS]
+- Grupo 1: Regressão Linear e Logística - Flávia, Janaína, Sara
+- Grupo 2: Árvores de Decisão - Cauã, Kauã, Pedro
+- Grupo 3: Processamento de Linguagem Natural (PLN) - Caio, Alessa, Daniel, Jamal
+- Grupo 4: Visualização de Dados - Giovanna, Thayla, Liandra, Vitor
+- Grupo 5: Análise Exploratória de Dados - Victor H, Thalles, Sant'anna, Arthur
+- Grupo 6: Classificação - Maria, Letícia
+- Grupo 7: Deep Learning - Guilherme S, Guilherme F, Maíra, Gabriel
+- Grupo 8: Feature Engineering - Mattheo, Murylo, Jonas, José L, Emanuelle
 
 #### 2C
 - Grupo 1: Séries Temporais - Rafael, Nicolas, Yan, Antôny, Gabriela
