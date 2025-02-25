@@ -56,7 +56,7 @@
 - Grupo 3: Processamento de Linguagem Natural (PLN) - Caio, Alessa, Daniel, Jamal
 - Grupo 4: Visualização de Dados - Giovanna, Thayla, Liandra, Vitor
 - Grupo 5: Análise Exploratória de Dados - Victor H, Thalles, Sant'anna, Arthur
-- Grupo 6: Classificação - Maria, Letícia
+- Grupo 6: Classificação - Marina, Letícia
 - Grupo 7: Deep Learning - Guilherme S, Guilherme F, Maíra, Gabriel
 - Grupo 8: Feature Engineering - Mattheo, Murylo, Jonas, José L, Emanuelle
 
@@ -92,10 +92,15 @@
 - Grupo 7: Visão Computacional - Enrico, Micaella, Thiago, Ruan, Lisandra
 
 #### 3B
-- Grupo 1: [TEMA] - [ALUNOS]
-- Grupo 2: [TEMA] - [ALUNOS]
-- Grupo 3: [TEMA] - [ALUNOS]
-- Grupo 4: [TEMA] - [ALUNOS]
+- Grupo 1: [Big Dadata - Hyago, Luiz, Davi, Rafaella
+- Grupo 2: Mineração de Dados - Davi A, Victor, Pedro, Gustavo M
+- Grupo 3: IA Generativa - Lucas, Marlon, Carlos Eduardo
+- Grupo 4: Sistemas de Recomendação - Agda, Letícia, Emilly
+- Grupo 5: Clustering - Davi V, Rafael, Sara, Nabor
+- Grupo 6: Árvores de Decisão - Anna Júlia, Isabela
+- Grupo 7: Análise Exploratória de Dados - João Vítor, Lara, Roberto, Maria Vítoria, Ana Clara
+Grupo 8: Governança e Ética em IA - Akira, Luiz
+
 
 #### 3C
 - Grupo 1: [Clustering - Arthur de Alemar, Gustavo Freitas, Sofia Vicente, Acauã, José Bueno 
