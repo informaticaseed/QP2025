@@ -99,7 +99,7 @@
 - Grupo 5: Clustering - Davi V, Rafael, Sara, Nabor
 - Grupo 6: Árvores de Decisão - Anna Júlia, Isabela
 - Grupo 7: Análise Exploratória de Dados - João Vítor, Lara, Roberto, Maria Vítoria, Ana Clara
--Grupo 8: Governança e Ética em IA - Akira, Luiz
+- Grupo 8: Governança e Ética em IA - Akira, Luiz
 
 
 #### 3C
