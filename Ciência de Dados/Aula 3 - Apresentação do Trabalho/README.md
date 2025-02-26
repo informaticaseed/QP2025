@@ -69,10 +69,15 @@
 - Grupo 6: Visualização de Dados - Lucas Maia, Lucas Lima, Valentina, Maria
 
 #### 2D
-- Grupo 1: [TEMA] - [ALUNOS]
-- Grupo 2: [TEMA] - [ALUNOS]
-- Grupo 3: [TEMA] - [ALUNOS]
-- Grupo 4: [TEMA] - [ALUNOS]
+- Grupo 1: Mineração de Dados - Nicolle, Davi 
+Brasileiro, Roberto Dias
+- Grupo 2: IA Generativa - Davi, Gabriel Tavares, Pietro
+- Grupo 3: Redes Neurais Artificiais - Emily, Cauã, Anselmo    
+- Grupo 4: Governança e Ética em IA - David, Arthur, Paulo Henrique, Samuel
+- Grupo 5: Visão Computacional - Enzo, Thiago
+- Grupo 6: Visualização de Dados - Paulo César, Francisco, Sofia, Gabriel Arcanjo
+- Grupo 7: Árvores de Decisão - Lucas Gabriel, Hanna
+
 
 #### 2E
 - Grupo 1: [TEMA] - [ALUNOS]
@@ -92,12 +97,12 @@
 - Grupo 7: Visão Computacional - Enrico, Micaella, Thiago, Ruan, Lisandra
 
 #### 3B
-- Grupo 1: Big Dadata - Hyago, Luiz, Davi, Rafaella
-- Grupo 2: Mineração de Dados - Davi A, Victor, Pedro, Gustavo M
+- Grupo 1: Big Dadata - Hyago, Luiz, Davi, Rafaella, Alexandre
+- Grupo 2: Mineração de Dados - Davi A, Victor, Pedro
 - Grupo 3: IA Generativa - Lucas, Marlon, Carlos Eduardo
 - Grupo 4: Sistemas de Recomendação - Agda, Letícia, Emilly
 - Grupo 5: Clustering - Davi V, Rafael, Sara, Nabor
-- Grupo 6: Árvores de Decisão - Anna Júlia, Isabela
+- Grupo 6: Árvores de Decisão - Anna Júlia, Isabela, Gustavo Mendes
 - Grupo 7: Análise Exploratória de Dados - João Vítor, Lara, Roberto, Maria Vítoria, Ana Clara
 - Grupo 8: Governança e Ética em IA - Akira, Luiz
 
