@@ -88,7 +88,7 @@
 ### 3º Ano
 
 #### 3A
-- Grupo 1: Governança e Ética em IA - Débora, Bruna, Maria Letícia, Eduarda e Hosana
+- Grupo 1: Governança e Ética em IA - Débora, Bruna, Maria Letícia, Eduarda, Hosana, Máximus
 - Grupo 2: IA Generativa - Paulo César, Nícolas, Ítalo, Wallison, Eduardo
 - Grupo 3: Processamento de Linguagem Natural (PLN) - João, Gabriel Marion, Davi, Yuri
 - Grupo 4: Mineração de Dados - Arthur Bueno, Júlio Cédric, Maria Clara, Enzo, Felipe
