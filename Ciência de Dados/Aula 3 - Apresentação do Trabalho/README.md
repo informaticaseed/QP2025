@@ -67,10 +67,10 @@
 - Grupo 4: Machine Learning - Gustavo, Vinícius, Sávio, Luiz
 - Grupo 5: Árvore de Decisão - Vítoria Santana, Sophia, Letícia, Krist, Érick
 - Grupo 6: Visualização de Dados - Lucas Maia, Lucas Lima, Valentina, Maria
+- Grupo 7: Mineração de Dados - Davi Brasileiro, Vitor Lisboa, Gabriela de Castro
 
 #### 2D
-- Grupo 1: Mineração de Dados - Nicolle, Davi 
-Brasileiro, Roberto Dias
+- Grupo 1: Mineração de Dados - Nicolle, Roberto Dias
 - Grupo 2: IA Generativa - Davi, Gabriel Tavares, Pietro
 - Grupo 3: Redes Neurais Artificiais - Emily, Cauã, Anselmo    
 - Grupo 4: Governança e Ética em IA - David, Arthur, Paulo Henrique, Samuel
