@@ -108,14 +108,15 @@ Brasileiro, Roberto Dias
 
 
 #### 3C
-- Grupo 1: [Clustering - Arthur de Alemar, Gustavo Freitas, Sofia Vicente, Acauã, José Bueno 
+- Grupo 1: Clustering - Arthur de Alemar, Gustavo Freitas, Sofia Vicente, Acauã, José Bueno 
 - Grupo 2: Deep Learning - Geovanna, Ana Clara, Raíssa Abrantes, José Freitas
-- Grupo 3: Sistemas de Recomendação - [Ana Paula, Luíz Cláudio, Raiane, Raíssa dos Santos
-- Grupo 4: IA Generativa - [Cibele, Pedro, Camila, Rafaella
-- Grupo 5: Mineração de Dados - [Gabriel, Henrique, Jayana, Marcos, Guilherme
-- Grupo 6: Governança e Ética em IA - [Sâmia, Peter
+- Grupo 3: Sistemas de Recomendação - Ana Paula, Luíz Cláudio, Raiane, Raíssa dos Santos
+- Grupo 4: IA Generativa - Cibele, Pedro, Camila, Rafaella, Caio
+- Grupo 5: Mineração de Dados - Gabriel, Henrique, Jayana, Marcos, Guilherme
+- Grupo 6: Governança e Ética em IA - Sâmia, Peter
 - Grupo 7: Árvore de Decisão - Orlando, Eymard,Antonio
 - Grupo 7: Big Data - André, Eduardo, Thalles, Heitor
+- Grupo 8: Processamento de Linguagem Natural (PLN) - Carlos, Miguel 
 
 ## ⏱️ Tempo de Apresentação - Máximo
 - Teoria: 20 minutos
