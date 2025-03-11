@@ -98,8 +98,8 @@
 
 #### 3B
 - Grupo 1: Big Dadata - Hyago, Luiz, Davi, Rafaella, Alexandre
-- Grupo 2: Mineração de Dados - Davi A, Victor, Pedro
-- Grupo 3: IA Generativa - Lucas, Marlon, Carlos Eduardo
+- Grupo 2: Mineração de Dados - Davi A, Victor, Pedro, Lucca
+- Grupo 3: IA Generativa - Lucas, Marlon, Carlos Eduardo, Gustavo de Araujo
 - Grupo 4: Sistemas de Recomendação - Agda, Letícia, Emilly
 - Grupo 5: Clustering - Davi V, Rafael, Sara, Nabor
 - Grupo 6: Árvores de Decisão - Anna Júlia, Isabela, Gustavo Mendes
