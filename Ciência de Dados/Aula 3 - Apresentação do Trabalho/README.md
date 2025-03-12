@@ -62,28 +62,21 @@
 
 #### 2C
 - Grupo 1: Séries Temporais - Rafael, Nicolas, Yan, Antôny, Gabriela
-- Grupo 2: Feature Engineering - [Francisco, Arthur Feitosa, Caio, Nicholas
+- Grupo 2: Feature Engineering - Francisco, Arthur Feitosa, Caio, Nicholas
 - Grupo 3: Deep Learning - Victória, Marília, Lara, Israel
 - Grupo 4: Machine Learning - Gustavo, Vinícius, Sávio, Luiz
 - Grupo 5: Árvore de Decisão - Vítoria Santana, Sophia, Letícia, Krist, Érick
-- Grupo 6: Visualização de Dados - Lucas Maia, Lucas Lima, Valentina, Maria
+- Grupo 6: Visualização de Dados - Lucas Maia, Lucas Lima, Valentina
 - Grupo 7: Mineração de Dados - Davi Brasileiro, Vitor Lisboa, Gabriela de Castro
 
 #### 2D
-- Grupo 1: Mineração de Dados - Nicolle, Roberto Dias
+- Grupo 1: Mineração de Dados - Nicolle, Roberto Dias, Maria Eduarda
 - Grupo 2: IA Generativa - Davi, Gabriel Tavares, Pietro
 - Grupo 3: Redes Neurais Artificiais - Emily, Cauã, Anselmo    
 - Grupo 4: Governança e Ética em IA - David, Arthur, Paulo Henrique, Samuel
 - Grupo 5: Visão Computacional - Enzo, Thiago
 - Grupo 6: Visualização de Dados - Paulo César, Francisco, Sofia, Gabriel Arcanjo
-- Grupo 7: Árvores de Decisão - Lucas Gabriel, Hanna
-
-
-#### 2E
-- Grupo 1: [TEMA] - [ALUNOS]
-- Grupo 2: [TEMA] - [ALUNOS]
-- Grupo 3: [TEMA] - [ALUNOS]
-- Grupo 4: [TEMA] - [ALUNOS]
+- Grupo 7: Árvores de Decisão - Lucas Gabriel, Hanna, Carlos
 
 ### 3º Ano
 
