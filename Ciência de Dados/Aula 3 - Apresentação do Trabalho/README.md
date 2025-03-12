@@ -55,10 +55,10 @@
 - Grupo 2: Árvores de Decisão - Cauã, Kauã, Pedro
 - Grupo 3: Processamento de Linguagem Natural (PLN) - Caio, Alessa, Daniel, Jamal
 - Grupo 4: Visualização de Dados - Giovanna, Thayla, Liandra, Vitor
-- Grupo 5: Análise Exploratória de Dados - Victor H, Thalles, Sant'anna, Arthur
+- Grupo 5: Análise Exploratória de Dados - Victor H, Thalles, Arthur
 - Grupo 6: Classificação - Marina, Letícia
 - Grupo 7: Deep Learning - Guilherme S, Guilherme F, Maíra, Gabriel
-- Grupo 8: Feature Engineering - Mattheo, Murylo, Jonas, José L, Emanuelle
+- Grupo 8: IA Generativa - Mattheo, Murylo, Jonas, José L, Emanuelle
 
 #### 2C
 - Grupo 1: Séries Temporais - Rafael, Nicolas, Yan, Antôny, Gabriela
@@ -71,12 +71,11 @@
 
 #### 2D
 - Grupo 1: Mineração de Dados - Nicolle, Roberto Dias, Maria Eduarda
-- Grupo 2: IA Generativa - Davi, Gabriel Tavares, Pietro
+- Grupo 2: IA Generativa - Davi, Gabriel Tavares, Pietro, Thiago
 - Grupo 3: Redes Neurais Artificiais - Emily, Cauã, Anselmo    
 - Grupo 4: Governança e Ética em IA - David, Arthur, Paulo Henrique, Samuel
-- Grupo 5: Visão Computacional - Enzo, Thiago
-- Grupo 6: Visualização de Dados - Paulo César, Francisco, Sofia, Gabriel Arcanjo
-- Grupo 7: Árvores de Decisão - Lucas Gabriel, Hanna, Carlos
+- Grupo 5: Visualização de Dados - Paulo César, Francisco, Sofia, Gabriel Arcanjo
+- Grupo 6: Árvores de Decisão - Lucas Gabriel, Hanna, Carlos
 
 ### 3º Ano
 
