@@ -57,7 +57,7 @@
 - Grupo 4: Visualização de Dados - Giovanna, Thayla, Liandra, Vitor
 - Grupo 5: Análise Exploratória de Dados - Victor H, Thalles, Arthur
 - Grupo 6: Classificação - Marina, Letícia
-- Grupo 7: Deep Learning - Guilherme S, Guilherme F, Maíra, Gabriel
+- Grupo 7: Deep Learning - Guilherme S, Guilherme F, Maíra, Gabriel, Kalel
 - Grupo 8: IA Generativa - Mattheo, Murylo, Jonas, José L, Emanuelle
 
 #### 2C
