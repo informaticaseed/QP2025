@@ -261,12 +261,19 @@ Considere a seguinte matriz de confusão:
 5. Calcule o F1-score
 
 ### Atividade 2: Interpretação
-Para cada cenário abaixo, indique qual métrica seria mais importante priorizar:
+Para cada cenário abaixo, a métrica mais importante está indicada. Explique por que essa métrica é a mais adequada em cada caso:
 
-1. Sistema de detecção de fraudes bancárias (falsos negativos são muito prejudiciais)
-2. Sistema de filtro de spam (falsos positivos são muito prejudiciais)
-3. Sistema de recomendação de produtos em um site (equilíbrio é importante)
-4. Sistema de diagnóstico de uma doença grave (falsos negativos são muito prejudiciais)
+1. Sistema de detecção de fraudes bancárias - **Recall**
+   *Justifique por que o recall é mais importante quando falsos negativos são prejudiciais*
+
+2. Sistema de filtro de spam - **Precisão**
+   *Justifique por que a precisão é mais importante quando falsos positivos são prejudiciais*
+
+3. Sistema de recomendação de produtos em um site - **F1-Score**
+   *Justifique por que o equilíbrio entre precisão e recall é importante neste cenário*
+
+4. Sistema de diagnóstico de uma doença grave - **Recall**
+   *Justifique por que o recall é mais importante neste contexto médico*
 
 ### Atividade 3: Desafio
 1. Adicione 5 novas mensagens ao conjunto de dados (com seus respectivos rótulos)
