@@ -1,4 +1,14 @@
-# 🎓 **Aula 2: Introdução ao Aprendizado Não Supervisionado**
+# 🎓 **Aprendizado Não Supervisionado: Descobrindo Padrões Ocultos**
+
+## 🎮 Analogia com Jogos
+Imagine que você está jogando um jogo de organizar objetos:
+- **Supervisionado**: Você tem um guia mostrando onde cada objeto deve ir
+- **Não Supervisionado**: Você precisa agrupar objetos parecidos sem instruções
+
+## 🏫 Exemplos da Escola
+- **Organizar a sala**: Alunos naturalmente formam grupos por afinidade
+- **Cantina**: Pessoas com gostos parecidos pedem lanches similares
+- **Biblioteca**: Livros são agrupados por assuntos relacionados
 
 ## 📌 **Objetivos**
 - Entender o que é **Aprendizado Não Supervisionado**.
@@ -36,6 +46,13 @@ Um dos principais algoritmos de **Aprendizado Não Supervisionado** é o **K-Mea
 3. Atribuir cada ponto ao centro mais próximo.
 4. Atualizar os centros com base nos grupos.
 5. Repetir até a convergência.
+
+## 🎯 K-Means: O Jogo dos Centroides
+Imagine que você é professor de Educação Física organizando times:
+1. Escolha K capitães (centroides)
+2. Cada aluno vai para o capitão mais próximo
+3. Capitães se movem para o centro do seu grupo
+4. Repita até todos estarem satisfeitos
 
 ---
 
