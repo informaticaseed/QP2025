@@ -148,6 +148,53 @@ R: Através do histórico de commits no GitHub e pela participação na apresent
 **P: Podemos usar APIs de IA como ChatGPT ou Claude?**  
 R: Sim, como ferramenta de auxílio, mas o trabalho deve ser substancialmente original. Citar todas as ferramentas utilizadas.
 
----
+## 👨‍👩‍👧‍👦 Grupos por Turma
 
-Boa sorte com seus projetos! Estou ansioso para ver as soluções inovadoras que vocês irão desenvolver.
+### 2º Ano A
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 | - |
+| 2 | - |
+| 3 | - |
+
+### 2º Ano B
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 | - |
+| 2 | - |
+| 3 | - |
+
+### 2º Ano C
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 | - |
+| 2 | - |
+| 3 | - |
+
+### 2º Ano D
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 | - |
+| 2 | - |
+| 3 | - |
+
+### 3º Ano A
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 | - |
+| 2 | - |
+| 3 | - |
+
+### 3º Ano B
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 | - |
+| 2 | - |
+| 3 | - |
+
+### 3º Ano C
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 | - |
+| 2 | - |
+| 3 | - |
