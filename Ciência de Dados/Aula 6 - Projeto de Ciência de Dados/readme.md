@@ -205,7 +205,14 @@ R: Sim, como ferramenta de auxílio, mas o trabalho deve ser substancialmente or
 |-------|-------------|
 | 1 | - | Luiz Eduardo
 | 2 | - | Francisco
-| 3 | - | 
+| 3 | - | Gustavo
+| 4 | - | Israel
+
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 | - | Lara
+| 2 | - | Victória
+| 3 | - | Marilha
 | 4 | - | 
 
 ### 2º Ano D
