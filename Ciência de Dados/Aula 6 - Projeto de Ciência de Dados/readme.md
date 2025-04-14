@@ -164,7 +164,7 @@ R: Sim, como ferramenta de auxílio, mas o trabalho deve ser substancialmente or
 | 2 | - |
 | 3 | - |
 
-### 2º Ano C
+### 2º Ano C 
 | Grupo | Integrantes |
 |-------|-------------|
 | 1 | - | Vítor
