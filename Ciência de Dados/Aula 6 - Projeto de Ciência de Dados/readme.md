@@ -14,7 +14,7 @@ Neste projeto final, vocês terão a oportunidade de aplicar os conceitos de Ci�
 
 ## 👥 Formação dos Grupos
 
-- Cada grupo deve ter **exatamente 3 integrantes**
+- Cada grupo deve ter **exatamente 4 integrantes**
 - Os grupos serão formados durante a aula
 - A definição do tema e conjunto de dados será discutida em sala
 
@@ -167,9 +167,46 @@ R: Sim, como ferramenta de auxílio, mas o trabalho deve ser substancialmente or
 ### 2º Ano C
 | Grupo | Integrantes |
 |-------|-------------|
-| 1 | - |
-| 2 | - |
-| 3 | - |
+| 1 | - | Vítor
+| 2 | - | Davi
+| 3 | - | Sávio
+| 4 | - | Arthur Feitosa
+
+
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 | - | Valentina
+| 2 | - | Enzo
+| 3 | - | Lucas da Maia
+| 4 | - | Lucas Lima
+
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 | - | Letícia
+| 2 | - | Sóphia
+| 3 | - | Vitória Santana
+| 4 | - | Érick
+
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 | - | Yan
+| 2 | - | Vinícius
+| 3 | - | Rafael
+| 4 | - | Nicolas Mendonça
+
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 | - | Caio
+| 2 | - | Nícholas
+| 3 | - | Bianca
+| 4 | - | Antony
+
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 | - | Luiz Eduardo
+| 2 | - | Francisco
+| 3 | - | 
+| 4 | - | 
 
 ### 2º Ano D
 | Grupo | Integrantes |
