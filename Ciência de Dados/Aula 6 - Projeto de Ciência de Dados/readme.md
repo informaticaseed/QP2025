@@ -2,7 +2,7 @@
 
 ## 📊 Visão Geral
 
-Neste projeto final, vocês terão a oportunidade de aplicar os conceitos de Ciência de Dados aprendidos ao longo do curso em um problema real. Trabalhando em grupos de 3 pessoas, vocês irão escolher um tema de interesse, selecionar um conjunto de dados do [Base dos Dados](https://basedosdados.org/), e desenvolver uma solução completa envolvendo análise, modelagem e apresentação de resultados.
+Neste projeto final, vocês terão a oportunidade de aplicar os conceitos de Ciência de Dados aprendidos ao longo do curso em um problema real. Trabalhando em grupos de 4 pessoas, vocês irão escolher um tema de interesse, selecionar um conjunto de dados da [Base dos Dados](https://basedosdados.org/), e desenvolver uma solução completa envolvendo análise, modelagem e apresentação de resultados.
 
 ## 🎯 Objetivos
 
@@ -165,55 +165,83 @@ R: Sim, como ferramenta de auxílio, mas o trabalho deve ser substancialmente or
 | 3 | - |
 
 ### 2º Ano C 
-| Grupo | Integrantes |
-|-------|-------------|
-| 1 | - | Vítor
-| 2 | - | Davi
-| 3 | - | Sávio
-| 4 | - | Arthur Feitosa
 
+#### Grupo 1
+[Link do dataset](https://basedosdados.org/dataset/ab4af450-6b41-412e-b7cb-ec7030646c3d?table=17405008-7635-4b38-a14b-bdfcf78351b2)
 
 | Grupo | Integrantes |
 |-------|-------------|
-| 1 | - | Valentina
-| 2 | - | Enzo
-| 3 | - | Lucas da Maia
-| 4 | - | Lucas Lima
+| 1 | Vítor |
+| 2 | Davi |
+| 3 | Sávio |
+| 4 | Arthur Feitosa |
+
+#### Grupo 2
+[Link do dataset](https://basedosdados.org/dataset/5c6664e6-38a4-4916-9473-72ac368bb96c?table=0af13802-61f0-4b96-aa82-78c33af0de2b)
 
 | Grupo | Integrantes |
 |-------|-------------|
-| 1 | - | Letícia
-| 2 | - | Sóphia
-| 3 | - | Vitória Santana
-| 4 | - | Érick
+| 1 | Valentina |
+| 2 | Enzo |
+| 3 | Lucas da Maia |
+| 4 | Lucas Lima |
+
+#### Grupo 3
+[Link do dataset](https://basedosdados.org/dataset/526fd6ad-1ba6-456f-a7c4-162b545e28f0?table=91b272be-1746-4e20-ae82-eefd2b765de1)
 
 | Grupo | Integrantes |
 |-------|-------------|
-| 1 | - | Yan
-| 2 | - | Vinícius
-| 3 | - | Rafael
-| 4 | - | Nicolas Mendonça
+| 1 | Letícia |
+| 2 | Sóphia |
+| 3 | Vitória Santana |
+| 4 | Érick |
+
+#### Grupo 4
+[Link do dataset](https://basedosdados.org/dataset/0bd844d9-454a-4c47-83e2-fc15df4f5ed7?table=ac8b5008-1f7e-4ec5-a32c-043baec80cc9)
 
 | Grupo | Integrantes |
 |-------|-------------|
-| 1 | - | Caio
-| 2 | - | Nícholas
-| 3 | - | Bianca
-| 4 | - | Antony
+| 1 | Yan |
+| 2 | Vinícius |
+| 3 | Rafael |
+| 4 | Nicolas Mendonça |
+
+#### Grupo 5
 
 | Grupo | Integrantes |
 |-------|-------------|
-| 1 | - | Luiz Eduardo
-| 2 | - | Francisco
-| 3 | - | Gustavo
-| 4 | - | Israel
+| 1 | Caio |
+| 2 | Nícholas |
+| 3 | Bianca |
+| 4 | Antony |
+
+#### Grupo 6
+[Link do dataset](https://basedosdados.org/dataset/b46bb892-3273-434d-9335-f502b8656ef1?table=cf7572de-c961-4c53-9b3a-4ef4eb05084c)
 
 | Grupo | Integrantes |
 |-------|-------------|
-| 1 | - | Lara
-| 2 | - | Victória
-| 3 | - | Marilha
-| 4 | - | 
+| 1 | Luiz Eduardo |
+| 2 | Francisco |
+| 3 | Gustavo |
+| 4 |  |
+
+#### Grupo 7
+[Link do dataset](https://basedosdados.org/dataset/90324ba8-9c39-4191-8a4-302f93732464?table=edf80eb4-0c97-4d07-bf4a-711144510b81)
+
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 | Lara |
+| 2 | Victória |
+| 3 | Marilha |
+| 4 |  |
+
+#### Grupo 8
+
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 | Israel |
+| 2 |  |
+| 3 |  |
 
 ### 2º Ano D
 | Grupo | Integrantes |
