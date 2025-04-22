@@ -151,11 +151,97 @@ R: Sim, como ferramenta de auxílio, mas o trabalho deve ser substancialmente or
 ## 👨‍👩‍👧‍👦 Grupos por Turma
 
 ### 2º Ano A
+#### Grupo 1
+[Link do dataset](https://basedosdados.org/dataset/4bc40f5f-17bf-4647-9186-b3f9b3dbde46?table=fc51dd46-c258-4134-932b-08b4f55bd802)
+
 | Grupo | Integrantes |
 |-------|-------------|
-| 1 | - |
-| 2 | - |
-| 3 | - |
+| 1 | Pedro |
+| 2 | Artur Orrico |
+| 3 | Vítor |
+| 4 | Gustavo |
+
+#### Grupo 2
+[Link do dataset](https://basedosdados.org/dataset/57c5dc55-10cb-44f9-9f13-6a2fb24392ed?table=d5751ecb-5d8c-4c74-934b-2a715dbc2450)
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 | Lívia|
+| 2 | Enzo |
+| 3 | Adrian |
+| 4 | Asafe |
+
+#### Grupo 3
+[Link do dataset](https://basedosdados.org/dataset/2a543ad8-3cdb-4047-9498-efe7fb8ed697?table=df7cf198-4889-4baf-bb77-4e0e28eb90ca)
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 | Natan |
+| 2 |  |
+| 3 |  |
+| 4 |  |
+
+#### Grupo 4
+[Link do dataset](https://basedosdados.org/dataset/ee4a450d-f3ca-4d77-993b-10ea798b8508?table=6b49abb1-f0c3-4033-9983-dc5d21cc64c5)
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 | Luiz Eduardo |
+| 2 | Ana Carolina |
+| 3 | Sara |
+| 4 | Carolinne |
+
+#### Grupo 5
+[Link do dataset](https://basedosdados.org/dataset/5c6664e6-38a4-4916-9473-72ac368bb96c?table=0af13802-61f0-4b96-aa82-78c33af0de2b)
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 | Riquelme |
+| 2 | João Davi |
+| 3 | Erick |
+| 4 |  |
+
+#### Grupo 6
+[Link do dataset](https://basedosdados.org/dataset/f06f3cdc-b539-409b-b311-1ff8878fb8d9?table=a3696dc2-4dd1-4f7e-9769-6aa16a1556b8)
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 | Beatriz |
+| 2 | Maria Eduarda|
+| 3 | Maria Clara |
+| 4 | Yago |
+
+
+#### Grupo 7
+[Link do dataset](https://basedosdados.org/dataset/fc403b40-a7e1-40e7-9efe-910847b45a69?table=bd9b2960-361f-4465-be23-baaadaaf266d)
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 | Laura |
+| 2 | Samara|
+| 3 | Ana Beatriz |
+| 4 | Anne Elise |
+
+#### Grupo 8
+[Link do dataset](https://basedosdados.org/dataset/faf3f3ae-e5af-4ec1-9f4c-aa38f677cd71?table=59270276-dc2f-462a-a4d5-dbd22b077046)
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 | Andressa |
+| 2 | Refaela|
+| 3 | Yasmin |
+| 4 | Rebeca |
+
+#### Grupo 9
+[Link do dataset](https://basedosdados.org/dataset/dbd717cb-7da8-4efd-9162-951a71694541?table=a2e9f998-e2c2-49b7-858a-ae1daef46dc0)
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 | Sabrina |
+| 2 | |
+| 3 |  |
+| 4 |  |
+
+#### Grupo 10
+[Link do dataset](https://basedosdados.org/dataset/6ba4745d-f131-4f8e-9e55-e8416199a6af?table=79de8c5e-9c21-4398-a9fb-bc40e6d6e77f)
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 | Arthur Medeiro|
+| 2 | João Pedro|
+| 3 | Guilherme|
+| 4 |  |
 
 ### 2º Ano B
 | Grupo | Integrantes |
