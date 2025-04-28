@@ -54,13 +54,21 @@ Estudar este tema nos ajuda a:
 
 ## 🤖 4. Nossos Algoritmos
 
-### Primeiro Algoritmo: Análise de Correlação e Regressão Linear
-**O que faz:** Entende como diferentes variáveis socioeconômicas se relacionam com o índice de Gini.
-**Por que usamos:** Para identificar correlações significativas, como a correlação de 0.72 entre a proporção de pessoas com ensino superior e menor desigualdade.
+### Primeiro Algoritmo: Classificação com Árvore de Decisão
+**O que faz:** Classifica os estados em grupos de "alta", "média" ou "baixa" desigualdade
+**Por que usamos:** Para responder nossa pergunta "Quais estados apresentam os maiores e menores índices de desigualdade de renda?"
+**Exemplo de resultado:** 
+- Alta desigualdade: Distrito Federal, São Paulo
+- Média desigualdade: Minas Gerais, Goiás
+- Baixa desigualdade: Santa Catarina, Rio Grande do Sul
 
 ### Segundo Algoritmo: Análise de Clusters (K-means)
-**O que faz:** Agrupa os estados brasileiros em clusters com base em indicadores de renda e desigualdade.
-**Por que usamos:** Para identificar grupos de estados com características semelhantes, como os estados do Sul e Sudeste que tendem a formar um cluster.
+**O que faz:** Agrupa os estados brasileiros que são parecidos
+**Por que usamos:** Para encontrar grupos de estados com características semelhantes
+**Exemplo de resultado:** Encontramos 3 grupos de estados:
+- Grupo 1: Estados ricos (Sul e Sudeste)
+- Grupo 2: Estados de renda média (Centro-Oeste)
+- Grupo 3: Estados de menor renda (Norte e Nordeste)
 
 ## 📋 5. Próximos Passos
 1. Aprofundar a análise temporal para identificar tendências e sazonalidades na desigualdade
