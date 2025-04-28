@@ -45,7 +45,7 @@ Estudar este tema nos ajuda a:
 
 ### Nossos Gráficos
 **Exemplo de Gráfico:** Renda Média por Estado
-![Gráfico de Rendimento Médio x Índice de Gini](https://images.app.goo.gl/oAjNFWcBYYnDLRoCA)
+![Gráfico de Rendimento Médio x Índice de Gini](https://agenciadenoticias.ibge.gov.br/images/agenciadenoticias/estatisticas_sociais/2024_04/graficos-PNAD-continua-rendimento-de-todas-as-fontes-2.png)
 - O que mostra: Relação entre rendimento médio e índice de Gini por estado
 
 ### Problemas Encontrados
