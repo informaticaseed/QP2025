@@ -244,12 +244,64 @@ R: Sim, como ferramenta de auxílio, mas o trabalho deve ser substancialmente or
 | 4 |  |
 
 ### 2º Ano B
+
+#### Grupo 1
+[Link do dataset](https://basedosdados.org/dataset/faf3f3ae-e5af-4ec1-9f4c-aa38f677cd71?table=59270276-dc2f-462a-a4d5-dbd22b077046)
 | Grupo | Integrantes |
 |-------|-------------|
-| 1 | - |
-| 2 | - |
-| 3 | - |
+| 1 | Emanuelle|
+| 2 | Murilo|
+| 3 | José|
+| 4 | Matheow|
 
+#### Grupo 2
+[Link do dataset](https://basedosdados.org/dataset/faf3f3ae-e5af-4ec1-9f4c-aa38f677cd71?table=59270276-dc2f-462a-a4d5-dbd22b077046)
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 | Marina|
+| 2 | Letícia|
+| 3 | Maira|
+| 4 | Gabriel José|
+
+#### Grupo 3
+[Link do dataset]()
+
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 |  Liandra|
+| 2 |  Vítor Gabriel|
+| 3 |  Giovana|
+| 4 |  Thayla|
+
+#### Grupo 4
+[Link do dataset](https://basedosdados.org/dataset/6ea3e28a-42be-401a-a066-ad87ca931e69?table=3a7cb29a-0bdf-4f44-bab1-d27872e565ff)
+
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 |  Guilherme|
+| 2 |  |
+| 3 |  |
+| 4 |  |
+
+#### Grupo 5
+[Link do dataset](https://basedosdados.org/dataset/5c6664e6-38a4-4916-9473-72ac368bb96c?table=0af13802-61f0-4b96-aa82-78c33af0de2b)
+
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 |  Pedro|
+| 2 |  |
+| 3 |  |
+| 4 |  |
+
+#### Grupo 6
+[Link do dataset]()
+
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 |  |
+| 2 |  |
+| 3 |  |
+| 4 |  |
 ### 2º Ano C 
 
 #### Grupo 1
@@ -344,11 +396,69 @@ R: Sim, como ferramenta de auxílio, mas o trabalho deve ser substancialmente or
 | 3 | - |
 
 ### 3º Ano B
+
+#### Grupo 1
+[Link do dataset](https://basedosdados.org/dataset/bb11d3e6-6bac-412e-bbb8-773369771a70?table=8d4af9e7-0c74-48a9-a80c-88efbc6b8e8f)
 | Grupo | Integrantes |
 |-------|-------------|
-| 1 | - |
-| 2 | - |
-| 3 | - |
+| 1 | Sara|
+| 2 | João Gabriel Nabor|
+| 3 | Davi Vidiano|
+| 4 | Rafael Jorgia|
+
+#### Grupo 2
+[Link do dataset]()
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 | Emilly|
+| 2 | Agda|
+| 3 | Letícia|
+| 4 | |
+
+#### Grupo 3
+[Link do dataset](https://basedosdados.org/dataset/bb11d3e6-6bac-412e-bbb8-773369771a70?table=8d4af9e7-0c74-48a9-a80c-88efbc6b8e8f)
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 | Víctor Mendes do Santos|
+| 2 | Lara|
+| 3 | Ana Clara|
+| 4 | Mavi|
+
+#### Grupo 4
+[Link do dataset](https://basedosdados.org/dataset/6ba4745d-f131-4f8e-9e55-e8416199a6af?table=79de8c5e-9c21-4398-a9fb-bc40e6d6e77f)
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 | Luiz Fernando|
+| 2 | Akira|
+| 3 | |
+| 4 | |
+
+#### Grupo 5
+[Link do dataset](https://basedosdados.org/dataset/562b56a3-0b01-4735-a049-eeac5681f056?table=95106d6f-e36e-4fed-b8e9-99c41cd99ecf)
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 | Murillo|
+| 2 | |
+| 3 | |
+| 4 | |
+
+#### Grupo 6
+[Link do dataset](https://basedosdados.org/dataset/e083c9a2-1cee-4342-bedc-535cbad6f3cd?table=d429a79a-eca1-461c-9c1f-ce65d61048a1)
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 | Marlon|
+| 2 | Isabela Cristina|
+| 3 | Gustavo Mendes|
+| 4 | Anna Júlia|
+
+#### Grupo 7
+[Link do dataset]()
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 | Lucca|
+| 2 | Davi Anibal|
+| 3 | Victor|
+| 4 | Pedro|
 
 ### 3º Ano C
 | Grupo | Integrantes |
