@@ -21,28 +21,31 @@
 
 ## ❓ 2. Nossa Pergunta Principal
 
-Como a desigualdade de renda varia entre as diferentes regiões do Brasil e quais fatores estão mais relacionados com maior ou menor desigualdade?
+**Queremos descobrir:** Como o dinheiro é distribuído de forma diferente em cada região do Brasil?
 
 ### Por que isso é importante?
-Entender a desigualdade de renda é crucial para formular políticas públicas que promovam a justiça social e o desenvolvimento econômico equilibrado.
+Estudar este tema nos ajuda a:
+- Entender melhor as diferenças entre regiões ricas e pobres
+- Ver onde precisamos de mais atenção do governo
+- Descobrir o que funciona para diminuir a desigualdade
 
 ### Nossas 5 Perguntas Específicas
-1. Quais estados apresentam os maiores e menores índices de desigualdade de renda?
-2. Existe correlação entre rendimento médio e índice de Gini por estado?
-3. Como a distribuição de renda mudou no período de 2012 a 2022?
-4. Quais regiões tiveram a maior redução de desigualdade no período analisado?
-5. Existe relação entre concentração de renda nos 10% mais ricos e os indicadores sociais?
+1. Quais são os estados mais ricos e mais pobres do Brasil?
+2. Os estados mais ricos são também os mais desiguais?
+3. A diferença entre ricos e pobres aumentou ou diminuiu desde 2012?
+4. Qual região do Brasil melhorou mais nos últimos anos?
+5. Os estados com melhor educação têm menos desigualdade?
 
 ## 🔍 3. O Que Descobrimos
 
 ### Fatos Interessantes
-1. O Distrito Federal apresenta o maior rendimento médio mensal (R$ 3.825,00), mas também um dos maiores índices de Gini (0,58), indicando alta desigualdade.
-2. Identificamos uma tendência de aumento da desigualdade nos períodos de crise econômica, especialmente entre 2015-2016 e durante a pandemia em 2020.
-3. Observamos que estados da região Nordeste, apesar de terem rendimento médio mais baixo, apresentaram maior redução da desigualdade no período analisado.
+1. "Brasília é a cidade mais rica, mas também uma das mais desiguais"
+2. "Durante a pandemia em 2020, a desigualdade aumentou em quase todo o país"
+3. "No Nordeste, mesmo sendo uma região mais pobre, a desigualdade diminuiu mais que em outras regiões"
 
 ### Nossos Gráficos
-**Gráfico 1:** Rendimento Médio x Índice de Gini
-![Gráfico de Rendimento Médio x Índice de Gini](https://i.imgur.com/exemplo.png)
+**Exemplo de Gráfico:** Renda Média por Estado
+![Gráfico de Rendimento Médio x Índice de Gini](https://images.app.goo.gl/oAjNFWcBYYnDLRoCA)
 - O que mostra: Relação entre rendimento médio e índice de Gini por estado
 
 ### Problemas Encontrados
