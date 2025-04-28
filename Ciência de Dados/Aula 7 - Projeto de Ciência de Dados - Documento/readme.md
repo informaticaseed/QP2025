@@ -1,5 +1,3 @@
-Aqui está o README atualizado com as datas de entrega:
-
 ## 📊 Projeto Final de Ciência de Dados
 
 Este é um projeto de análise de dados onde os alunos trabalharão com conjuntos de dados reais da [Base dos Dados](https://basedosdados.org/), aplicando técnicas de ciência de dados para resolver problemas práticos.
