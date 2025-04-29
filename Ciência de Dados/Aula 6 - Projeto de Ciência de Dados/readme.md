@@ -264,7 +264,7 @@ R: Sim, como ferramenta de auxílio, mas o trabalho deve ser substancialmente or
 | 4 | Gabriel José|
 
 #### Grupo 3
-[Link do dataset]()
+[Link do dataset](https://basedosdados.org/dataset/1e6d3f07-cf38-4149-9c09-1c4f39ee6b0b?table=df9cf42a-5f37-44c8-a935-eeaf1a0d6903)
 
 | Grupo | Integrantes |
 |-------|-------------|
@@ -294,14 +294,45 @@ R: Sim, como ferramenta de auxílio, mas o trabalho deve ser substancialmente or
 | 4 |  |
 
 #### Grupo 6
+[Link do dataset](https://basedosdados.org/dataset/c861330e-bca2-474d-9073-bc70744a1b23?table=18835b0d-233e-4857-b454-1fa34a81b4fa)
+
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 | Victor Hugo |
+| 2 | Kauã |
+| 3 | Thales |
+| 4 | Cauã |
+| 5 | Arthur |
+
+#### Grupo 7
+[Link do dataset](https://basedosdados.org/dataset/11b867be-e626-4da7-9dad-f5dd930c67fe?table=687a48b3-8e09-46da-80e0-b734ea0b51ec)
+
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 | Flávia |
+| 2 | Janaína |
+| 3 | Sara |
+
+#### Grupo 7
 [Link do dataset]()
 
 | Grupo | Integrantes |
 |-------|-------------|
-| 1 |  |
+| 1 | Kalel |
 | 2 |  |
 | 3 |  |
-| 4 |  |
+
+#### Grupo 8
+[Link do dataset](https://basedosdados.org/dataset/6ba4745d-f131-4f8e-9e55-e8416199a6af?table=79de8c5e-9c21-4398-a9fb-bc40e6d6e77f)
+
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 | Alessa |
+| 2 | Caio Vítor|
+| 3 | Daniel Alves |
+| 4 | Luiz Eduardo |
+
+
 ### 2º Ano C 
 
 #### Grupo 1
@@ -364,13 +395,13 @@ R: Sim, como ferramenta de auxílio, mas o trabalho deve ser substancialmente or
 | 4 |  |
 
 #### Grupo 7
-[Link do dataset](https://basedosdados.org/dataset/90324ba8-9c39-4191-8a4-302f93732464?table=edf80eb4-0c97-4d07-bf4a-711144510b81)
+[Link do dataset](https://basedosdados.org/dataset/faf3f3ae-e5af-4ec1-9f4c-aa38f677cd71?table=59270276-dc2f-462a-a4d5-dbd22b077046)
 
 | Grupo | Integrantes |
 |-------|-------------|
 | 1 | Lara |
 | 2 | Victória |
-| 3 | Marilha |
+| 3 | Marília |
 | 4 |  |
 
 #### Grupo 8
@@ -389,11 +420,67 @@ R: Sim, como ferramenta de auxílio, mas o trabalho deve ser substancialmente or
 | 3 | - |
 
 ### 3º Ano A
+#### Grupo 1
+[Link do dataset]()
+
 | Grupo | Integrantes |
 |-------|-------------|
-| 1 | - |
-| 2 | - |
-| 3 | - |
+| 1 | Letícia |
+| 2 | Máximus |
+| 3 | Hosana |
+| 4 | Paulo |
+
+#### Grupo 2
+[Link do dataset](https://basedosdados.org/dataset/4bc40f5f-17bf-4647-9186-b3f9b3dbde46?table=fc51dd46-c258-4134-932b-08b4f55bd802)
+
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 | Débora |
+| 2 | Bruna |
+| 3 | Eduarda |
+| 4 | Wallison |
+
+#### Grupo 3
+[Link do dataset](https://basedosdados.org/dataset/5c6664e6-38a4-4916-9473-72ac368bb96c?table=0af13802-61f0-4b96-aa82-78c33af0de2b)
+
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 | Maria Clara |
+| 2 | Eloá |
+| 3 | Júlio |
+| 4 | Yuri |
+
+#### Grupo 4
+[Link do dataset]()
+
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 | Arthur Bueno |
+| 2 | Davi Souza |
+| 3 | João Gabriel |
+| 4 | Gabriel Marion |
+
+#### Grupo 5
+[Link do dataset]()
+
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 | Thiago |
+| 2 | Lucas Enrico |
+| 3 | Micaella |
+| 4 | Rhuan |
+| 5 | Lisandra |
+
+#### Grupo 6
+[Link do dataset]()
+
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 | Gabriel |
+| 2 | João Gabriel |
+| 3 | Artur Bueno |
+| 4 | Davi |
+
 
 ### 3º Ano B
 
@@ -403,11 +490,11 @@ R: Sim, como ferramenta de auxílio, mas o trabalho deve ser substancialmente or
 |-------|-------------|
 | 1 | Sara|
 | 2 | João Gabriel Nabor|
-| 3 | Davi Vidiano|
-| 4 | Rafael Jorgia|
+| 3 | Davi Viggiano|
+| 4 | Rafael Foggia|
 
 #### Grupo 2
-[Link do dataset]()
+[Link do dataset](https://basedosdados.org/dataset/9a22474f-a763-4431-8e3d-667908a1c7ab?table=104c6201-b0e7-47aa-b858-83252e2b149f)
 | Grupo | Integrantes |
 |-------|-------------|
 | 1 | Emilly|
@@ -461,8 +548,76 @@ R: Sim, como ferramenta de auxílio, mas o trabalho deve ser substancialmente or
 | 4 | Pedro|
 
 ### 3º Ano C
+#### Grupo 1
+[Link do dataset](https://basedosdados.org/dataset/257e000c-1685-418a-88d9-4908ccef2840?table=f116068d-b65d-4d04-9bcb-368e70062c4b)
+
 | Grupo | Integrantes |
 |-------|-------------|
-| 1 | - |
-| 2 | - |
-| 3 | - |
+| 1 | Luiz Cláudio |
+| 2 | Marcos |
+| 3 | Guilherme |
+| 4 | Gabriel|
+
+#### Grupo 2
+[Link do dataset]()
+
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 | Acauã |
+| 2 | Gustava |
+| 3 | José |
+| 4 | Sophia|
+| 5 | Orlando|
+
+#### Grupo 3
+[Link do dataset](https://basedosdados.org/dataset/0e6bbf0d-3997-40d3-b269-d53d38bc8b2a?raw_data_source=5b4646fb-90cc-498b-a8e6-627517523e3d)
+
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 | Raine |
+| 2 | Raissa Abrantes |
+| 3 | Raissa  |
+| 4 | Ana Pauloa|
+| 5 | Ana Clara|
+| 6 | Giovana|
+
+#### Grupo 4
+[Link do dataset](https://basedosdados.org/dataset/faf3f3ae-e5af-4ec1-9f4c-aa38f677cd71?table=59270276-dc2f-462a-a4d5-dbd22b077046)
+
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 | Caio |
+| 2 | Pedro |
+| 3 | Arthur  |
+| 4 | Cibele|
+| 5 | Camila|
+| 6 | Rafa|
+
+#### Grupo 5
+[Link do dataset]()
+
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 | Henrique |
+| 2 | Jayana |
+
+#### Grupo 6
+[Link do dataset]()
+
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 | Eduardo |
+| 2 | André |
+| 3 | Antônio |
+| 4 | Heitor |
+| 5 | Eymard |
+
+
+#### Grupo 7
+[Link do dataset]()
+
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 | Peter |
+| 2 | Sâmia |
+
