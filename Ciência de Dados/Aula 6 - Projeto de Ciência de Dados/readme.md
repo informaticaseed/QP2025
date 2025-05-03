@@ -481,6 +481,26 @@ R: Sim, como ferramenta de auxílio, mas o trabalho deve ser substancialmente or
 | 3 | Artur Bueno |
 | 4 | Davi |
 
+#### Grupo 7
+[Link do dataset]()
+
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 | Nícolas |
+| 2 | Ítalo |
+| 3 | Ian |
+| 4 | Víctor |
+
+#### Grupo 8
+[Link do dataset](https://basedosdados.org/dataset/faf3f3ae-e5af-4ec1-9f4c-aa38f677cd71?table=59270276-dc2f-462a-a4d5-dbd22b077046)
+
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 | Jéssica |
+| 2 | Luz |
+| 3 | Giovana |
+
+
 
 ### 3º Ano B
 
