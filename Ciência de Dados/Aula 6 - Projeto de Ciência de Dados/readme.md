@@ -579,12 +579,12 @@ R: Sim, como ferramenta de auxílio, mas o trabalho deve ser substancialmente or
 | 4 | Gabriel|
 
 #### Grupo 2
-[Link do dataset]()
+[Link do dataset](https://basedosdados.org/dataset/6ba4745d-f131-4f8e-9e55-e8416199a6af?table=79de8c5e-9c21-4398-a9fb-bc40e6d6e77f)
 
 | Grupo | Integrantes |
 |-------|-------------|
 | 1 | Acauã |
-| 2 | Gustava |
+| 2 | Gustavo |
 | 3 | José |
 | 4 | Sofia|
 | 5 | Orlando|
@@ -624,7 +624,7 @@ R: Sim, como ferramenta de auxílio, mas o trabalho deve ser substancialmente or
 | 4 | Miguel |
 
 #### Grupo 6
-[Link do dataset]()
+[Link do dataset](https://basedosdados.org/dataset/a898f300-fa77-48dd-b4dd-59b83d7bb345?table=16d53ff3-afce-4c31-8a5c-bcb77a59078b)
 
 | Grupo | Integrantes |
 |-------|-------------|
@@ -636,7 +636,7 @@ R: Sim, como ferramenta de auxílio, mas o trabalho deve ser substancialmente or
 
 
 #### Grupo 7
-[Link do dataset]()
+[Link do dataset](https://basedosdados.org/dataset/6ba4745d-f131-4f8e-9e55-e8416199a6af?table=79de8c5e-9c21-4398-a9fb-bc40e6d6e77f)
 
 | Grupo | Integrantes |
 |-------|-------------|
