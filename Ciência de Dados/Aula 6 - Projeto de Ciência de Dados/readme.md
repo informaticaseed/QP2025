@@ -586,7 +586,7 @@ R: Sim, como ferramenta de auxílio, mas o trabalho deve ser substancialmente or
 | 1 | Acauã |
 | 2 | Gustava |
 | 3 | José |
-| 4 | Sophia|
+| 4 | Sofia|
 | 5 | Orlando|
 
 #### Grupo 3
@@ -597,7 +597,7 @@ R: Sim, como ferramenta de auxílio, mas o trabalho deve ser substancialmente or
 | 1 | Raiane |
 | 2 | Raissa Abrantes |
 | 3 | Raissa  |
-| 4 | Ana Pauloa|
+| 4 | Ana Paula|
 | 5 | Ana Clara|
 | 6 | Giovana|
 
@@ -614,12 +614,14 @@ R: Sim, como ferramenta de auxílio, mas o trabalho deve ser substancialmente or
 | 6 | Rafa|
 
 #### Grupo 5
-[Link do dataset]()
+[Link do dataset](https://basedosdados.org/dataset/562b56a3-0b01-4735-a049-eeac5681f056?table=95106d6f-e36e-4fed-b8e9-99c41cd99ecf)
 
 | Grupo | Integrantes |
 |-------|-------------|
 | 1 | Henrique |
 | 2 | Jayana |
+| 3 | Carlos |
+| 4 | Miguel |
 
 #### Grupo 6
 [Link do dataset]()
@@ -640,4 +642,4 @@ R: Sim, como ferramenta de auxílio, mas o trabalho deve ser substancialmente or
 |-------|-------------|
 | 1 | Peter |
 | 2 | Sâmia |
-
+| 3 | José Freitas |
