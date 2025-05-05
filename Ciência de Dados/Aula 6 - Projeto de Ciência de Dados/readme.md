@@ -594,7 +594,7 @@ R: Sim, como ferramenta de auxílio, mas o trabalho deve ser substancialmente or
 
 | Grupo | Integrantes |
 |-------|-------------|
-| 1 | Raine |
+| 1 | Raiane |
 | 2 | Raissa Abrantes |
 | 3 | Raissa  |
 | 4 | Ana Pauloa|
