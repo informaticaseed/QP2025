@@ -221,7 +221,7 @@ R: Sim, como ferramenta de auxílio, mas o trabalho deve ser substancialmente or
 | Grupo | Integrantes |
 |-------|-------------|
 | 1 | Andressa |
-| 2 | Refaela|
+| 2 | Rafaela|
 | 3 | Yasmin |
 | 4 | Rebeca |
 
@@ -413,11 +413,52 @@ R: Sim, como ferramenta de auxílio, mas o trabalho deve ser substancialmente or
 | 3 |  |
 
 ### 2º Ano D
+
+#### Grupo 1
+[Link do dataset](https://basedosdados.org/dataset/1dd6317a-8e79-4a67-bb78-bc5fef214b4d?table=8dce525d-07f9-4d52-8ea0-36fa288d7df8)
 | Grupo | Integrantes |
 |-------|-------------|
-| 1 | - |
-| 2 | - |
-| 3 | - |
+| 1 | Nicolle |
+| 2 | Maria Eduarda |
+| 3 | Emily |
+| 4 | Cauã |
+
+#### Grupo 2
+[Link do dataset](https://basedosdados.org/dataset/fcb40f26-0d15-463f-b5fe-e69d5f0affe1?table=ab8e842f-af0a-452e-8e35-d5270395dd6c)
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 | Francisco |
+| 2 | Paulo |
+| 3 | Sófia |
+| 4 |  |
+
+#### Grupo 3
+[Link do dataset](https://basedosdados.org/dataset/e3edf621-c491-4d74-a03a-15a759f6e638?table=01114371-3b1b-4574-a3ea-3d7d2125b4f2)
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 | Carlos |
+| 2 | Hanna |
+| 3 | Davi |
+| 4 | Gabriel Braz |
+
+#### Grupo 4
+[Link do dataset](https://basedosdados.org/dataset/faf3f3ae-e5af-4ec1-9f4c-aa38f677cd71?table=59270276-dc2f-462a-a4d5-dbd22b077046)
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 | Gabriel Tavares |
+| 2 | Roberto |
+| 3 | Arthur |
+| 4 | Sóphia |
+
+#### Grupo 5
+[Link do dataset](https://basedosdados.org/dataset/2a543ad8-3cdb-4047-9498-efe7fb8ed697?table=df7cf198-4889-4baf-bb77-4e0e28eb90ca)
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 | Anselmo |
+| 2 | Rudá |
+| 3 | Thiago |
+| 4 | Israel |
+| 5 | Pietro |
 
 ### 3º Ano A
 #### Grupo 1
@@ -557,6 +598,7 @@ R: Sim, como ferramenta de auxílio, mas o trabalho deve ser substancialmente or
 | 2 | Isabela Cristina|
 | 3 | Gustavo Mendes|
 | 4 | Anna Júlia|
+| 5 | Lucas Luiz|
 
 #### Grupo 7
 [Link do dataset](https://basedosdados.org/dataset/d3874769-bcbd-4ece-a38a-157ba1021514?table=14c5d05b-9830-4710-b7ac-7e0ca1bf9d8b)
