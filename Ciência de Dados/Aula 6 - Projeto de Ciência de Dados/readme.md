@@ -462,7 +462,7 @@ R: Sim, como ferramenta de auxílio, mas o trabalho deve ser substancialmente or
 
 ### 3º Ano A
 #### Grupo 1
-[Link do dataset]()
+[Link do dataset](https://basedosdados.org/dataset/4bc40f5f-17bf-4647-9186-b3f9b3dbde46?table=fc51dd46-c258-4134-932b-08b4f55bd802)
 
 | Grupo | Integrantes |
 |-------|-------------|
@@ -472,7 +472,7 @@ R: Sim, como ferramenta de auxílio, mas o trabalho deve ser substancialmente or
 | 4 | Paulo |
 
 #### Grupo 2
-[Link do dataset](https://basedosdados.org/dataset/4bc40f5f-17bf-4647-9186-b3f9b3dbde46?table=fc51dd46-c258-4134-932b-08b4f55bd802)
+[Link do dataset](https://basedosdados.org/dataset/9a22474f-a763-4431-8e3d-667908a1c7ab?table=104c6201-b0e7-47aa-b858-83252e2b149f)
 
 | Grupo | Integrantes |
 |-------|-------------|
@@ -492,7 +492,7 @@ R: Sim, como ferramenta de auxílio, mas o trabalho deve ser substancialmente or
 | 4 | Yuri |
 
 #### Grupo 4
-[Link do dataset]()
+[Link do dataset](https://basedosdados.org/dataset/9a2368e4-2fa6-4b42-88b7-026aa048f5ab?table=82e257d0-3564-4122-ba4a-78a039ca89b7)
 
 | Grupo | Integrantes |
 |-------|-------------|
@@ -502,7 +502,7 @@ R: Sim, como ferramenta de auxílio, mas o trabalho deve ser substancialmente or
 | 4 | Gabriel Marion |
 
 #### Grupo 5
-[Link do dataset]()
+[Link do dataset](https://basedosdados.org/dataset/ff933265-8b61-4458-877a-173b3f38102b?table=75db9d44-42be-42c5-9fbc-7591f4dc8d5f)
 
 | Grupo | Integrantes |
 |-------|-------------|
@@ -512,18 +512,9 @@ R: Sim, como ferramenta de auxílio, mas o trabalho deve ser substancialmente or
 | 4 | Rhuan |
 | 5 | Lisandra |
 
-#### Grupo 6
-[Link do dataset]()
-
-| Grupo | Integrantes |
-|-------|-------------|
-| 1 | Gabriel |
-| 2 | João Gabriel |
-| 3 | Artur Bueno |
-| 4 | Davi |
 
 #### Grupo 7
-[Link do dataset]()
+[Link do dataset](https://basedosdados.org/dataset/69102969-73eb-41cf-ae9c-e647d7ad6034?table=cfe07403-0b39-4f9b-a309-57864b8e3e6a)
 
 | Grupo | Integrantes |
 |-------|-------------|
