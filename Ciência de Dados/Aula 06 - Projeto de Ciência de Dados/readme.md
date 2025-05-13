@@ -616,6 +616,7 @@ R: Sim, como ferramenta de auxílio, mas o trabalho deve ser substancialmente or
 |-------|-------------|
 | 1 | Gustavo Mendes|
 | 2 | Davi Anibal|
+| 3 | Carlos Bastista|
 
 ### 3º Ano C
 #### Grupo 1
