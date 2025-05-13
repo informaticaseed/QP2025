@@ -589,18 +589,17 @@ R: Sim, como ferramenta de auxílio, mas o trabalho deve ser substancialmente or
 |-------|-------------|
 | 1 | Marlon|
 | 2 | Isabela Cristina|
-| 3 | Gustavo Mendes|
+| 3 | Lucca|
 | 4 | Anna Júlia|
-| 5 | Lucas Luiz|
+| 6 | Carlos Eduardo|
 
 #### Grupo 7
 [Link do dataset](https://basedosdados.org/dataset/d3874769-bcbd-4ece-a38a-157ba1021514?table=14c5d05b-9830-4710-b7ac-7e0ca1bf9d8b)
 | Grupo | Integrantes |
 |-------|-------------|
-| 1 | Lucca|
-| 2 | Davi Anibal|
-| 3 | Victor|
-| 4 | Pedro|
+| 1 | Victor|
+| 2 | Pedro|
+| 3 | Eduardo Levi|
 
 #### Grupo 8
 [Link do dataset](https://basedosdados.org/dataset/afc5c178-fdde-491c-a41f-655a7249029e?table=e5bfb75a-73a7-4ea1-8f22-a5def780e1da)
@@ -610,6 +609,13 @@ R: Sim, como ferramenta de auxílio, mas o trabalho deve ser substancialmente or
 | 2 | Luis Eduardo|
 | 3 | Rafaella|
 | 4 | Hyago|
+
+#### Grupo 9
+[Link do dataset](https://basedosdados.org/search?q=pena%20de%20morte)
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 | Gustavo Mendes|
+| 2 | Davi Anibal|
 
 ### 3º Ano C
 #### Grupo 1
