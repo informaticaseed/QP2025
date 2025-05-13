@@ -602,6 +602,15 @@ R: Sim, como ferramenta de auxílio, mas o trabalho deve ser substancialmente or
 | 3 | Victor|
 | 4 | Pedro|
 
+#### Grupo 8
+[Link do dataset](https://basedosdados.org/dataset/afc5c178-fdde-491c-a41f-655a7249029e?table=e5bfb75a-73a7-4ea1-8f22-a5def780e1da)
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 | Davi Lins|
+| 2 | Luis Eduardo|
+| 3 | Rafaella|
+| 4 | Hyago|
+
 ### 3º Ano C
 #### Grupo 1
 [Link do dataset](https://basedosdados.org/dataset/257e000c-1685-418a-88d9-4908ccef2840?table=f116068d-b65d-4d04-9bcb-368e70062c4b)
