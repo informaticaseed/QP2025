@@ -532,6 +532,15 @@ R: Sim, como ferramenta de auxílio, mas o trabalho deve ser substancialmente or
 | 2 | Luz |
 | 3 | Giovana |
 
+#### Grupo 9
+[Link do dataset]()
+
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 | Filipe |
+| 2 | Vinícius |
+| 3 | Enzo |
+
 
 
 ### 3º Ano B
@@ -684,6 +693,7 @@ R: Sim, como ferramenta de auxílio, mas o trabalho deve ser substancialmente or
 | 3 | Antônio |
 | 4 | Heitor |
 | 5 | Eymard |
+| 6 | Thalles |
 
 
 #### Grupo 7
