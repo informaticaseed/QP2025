@@ -428,9 +428,9 @@ R: Sim, como ferramenta de auxílio, mas o trabalho deve ser substancialmente or
 | Grupo | Integrantes |
 |-------|-------------|
 | 1 | Francisco |
-| 2 | Paulo |
-| 3 | Sófia |
-| 4 |  |
+| 2 | Paulo César |
+| 3 | Lucas |
+| 4 | Samuel |
 
 #### Grupo 3
 [Link do dataset](https://basedosdados.org/dataset/e3edf621-c491-4d74-a03a-15a759f6e638?table=01114371-3b1b-4574-a3ea-3d7d2125b4f2)
@@ -449,6 +449,7 @@ R: Sim, como ferramenta de auxílio, mas o trabalho deve ser substancialmente or
 | 2 | Roberto |
 | 3 | Arthur |
 | 4 | Sóphia |
+| 5 | Sófia |
 
 #### Grupo 5
 [Link do dataset](https://basedosdados.org/dataset/2a543ad8-3cdb-4047-9498-efe7fb8ed697?table=df7cf198-4889-4baf-bb77-4e0e28eb90ca)
