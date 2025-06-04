@@ -2,7 +2,7 @@
 
 ## 📊 Visão Geral
 
-Neste projeto final, vocês terão a oportunidade de aplicar os conceitos de Ciência de Dados aprendidos ao longo do curso em um problema real. Trabalhando em grupos de 4 pessoas, vocês irão escolher um tema de interesse, selecionar um conjunto de dados da [Base dos Dados](https://basedosdados.org/), e desenvolver uma solução completa envolvendo análise, modelagem e apresentação de resultados. Aqui temos o [formulário] (https://docs.google.com/forms/d/e/1FAIpQLSdjfJTVnC3Vrx3d3g1M6FFYJ_0hYild9nXyv0zFyWO7ECgJHQ/viewform) para ser respondido pelos grupos
+Neste projeto final, vocês terão a oportunidade de aplicar os conceitos de Ciência de Dados aprendidos ao longo do curso em um problema real. Trabalhando em grupos de 4 pessoas, vocês irão escolher um tema de interesse, selecionar um conjunto de dados da [Base dos Dados](https://basedosdados.org/), e desenvolver uma solução completa envolvendo análise, modelagem e apresentação de resultados. Aqui temos o [Formulário] (https://docs.google.com/forms/d/e/1FAIpQLSdjfJTVnC3Vrx3d3g1M6FFYJ_0hYild9nXyv0zFyWO7ECgJHQ/viewform) para ser respondido pelos grupos
 
 ## 🎯 Objetivos
 
