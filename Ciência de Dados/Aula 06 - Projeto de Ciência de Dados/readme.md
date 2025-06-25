@@ -332,6 +332,16 @@ R: Sim, como ferramenta de auxílio, mas o trabalho deve ser substancialmente or
 | 3 | Daniel Alves |
 | 4 | Luiz Eduardo |
 
+#### Grupo 9
+[Link do dataset](https://basedosdados.org/dataset/62f8cb83-ac37-48be-874b-b94dd92d3e2b?table=567b1ccd-d8c2-4616-bacb-cf5c0e7b8d89)
+
+| Grupo | Integrantes |
+|-------|-------------|
+| 1 | JONAS ARCANJO DOS REIS |
+| 2 | |
+| 3 |  |
+| 4 |  |
+
 
 ### 2º Ano C 
 
