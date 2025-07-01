@@ -5,6 +5,7 @@
 * **(15 min) Teoria:** Como funciona a "linha mágica" de previsão
 * **(20 min) Prática:** Código em Python e visualização
 * **(5 min) Desafio:** Exercício prático em duplas
+* **Exemplo código:** https://colab.research.google.com/drive/1--FQRobNwoacAo1YBCuOnvcSBbRUqNI0?usp=sharing
 
 ## 🎯 Objetivo da Aula
 Entender como a regressão linear permite prever valores numéricos a partir de dados existentes.
