@@ -269,9 +269,8 @@ R: Sim, como ferramenta de auxílio, mas o trabalho deve ser substancialmente or
 | Grupo | Integrantes |
 |-------|-------------|
 | 1 |  Liandra|
-| 2 |  Vítor Gabriel|
-| 3 |  Giovana|
-| 4 |  Thayla|
+| 2 |  Giovana|
+| 3 |  Thayla|
 
 #### Grupo 4
 [Link do dataset](https://basedosdados.org/dataset/6ea3e28a-42be-401a-a066-ad87ca931e69?table=3a7cb29a-0bdf-4f44-bab1-d27872e565ff)
