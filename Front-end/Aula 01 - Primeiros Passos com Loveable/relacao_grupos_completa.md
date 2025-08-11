@@ -10,24 +10,30 @@
 **Link Loveable:** _________________________________
 
 ### **Grupo 2**  
-**Integrantes:** Maria Eduarda, Beatriz, Sabrina, Roberta  
+**Integrantes:** Maria Eduarda, Beatriz, Sabrina, Rebeca  
 **Tema:** Chatbox - Datas, Histórias  
 **Link Loveable:** _________________________________
 
 ### **Grupo 3**
-**Integrantes:** João Pedro, Natam, Guilherme, Arthur Medeiral, Rafaela, Riquelme  
+**Integrantes:** João Pedro, Natan, Guilherme, Arthur Medeiros, Rafaela, Riquelme  
 **Tema:** Chatbox - Matemática  
 **Link Loveable:** _________________________________
 
 ### **Grupo 4**
-**Integrantes:** Pedro Monteiro de Vasconcelos, Gustavo de Souza Rosa, Artur Vinícius Ferreira, Vitor Cunha, João Davi 
+**Integrantes:** Pedro Monteiro, Gustavo de Souza Rosa, Artur Orrico, Vitor Orrico, João Davi 
 **Tema:** Chatbox - Dúvidas sobre a escola  
 **Link Loveable:** _________________________________
 
 ### **Grupo 5**
-**Integrantes:** Asafe, Enzo, Lívia, Adrejan  
+**Integrantes:** Asafe, Enzo, Lívia, Adrean  
 **Tema:** Chatbot para disciplina de História  
 **Link Loveable:** _________________________________
+
+### **Grupo 6**
+**Integrantes:** Andressa, Anne, Laura, Ana Beatriz, Samara, Yasmin  
+**Tema:** Chatbot Alimentação da Escola  
+**Link Loveable:** _________________________________
+
 
 ---
 
