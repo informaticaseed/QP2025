@@ -45,7 +45,7 @@
 **Link Loveable:** _________________________________
 
 ### **Grupo 2**
-**Integrantes:** Arthur, Victor H., Kauã, Caio, Thalles  
+**Integrantes:** Arthur, Victor H., Kauã, Cauã, Thalles  
 **Tema:** EDF  
 **Link Loveable:** _________________________________
 
@@ -55,12 +55,12 @@
 **Link Loveable:** _________________________________
 
 ### **Grupo 4**
-**Integrantes:** Marina, Letício, Mayra  
+**Integrantes:** Marina, Letícia, Maira  
 **Tema:** Portal do aluno  
 **Link Loveable:** _________________________________
 
 ### **Grupo 5**
-**Integrantes:** Matteo, Marylo, José  
+**Integrantes:** Matteo, Marylo, José, Kalel 
 **Tema:** Música  
 **Link Loveable:** _________________________________
 
