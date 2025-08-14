@@ -47,8 +47,12 @@ ORIENTAÇÃO:
 O arquivo **DOCUMENTO DE DEFINIÇÃO.docx** está disponível na pasta da disciplina:
 
 [DOCUMENTO DE DEFINIÇÃO.docx](./DOCUMENTO%20DE%20DEFINI%C3%A7%C3%83O.docx)
-
 Baixe e utilize este arquivo como base para preencher as informações do seu grupo.
+
+**Envie o relatório preenchido até o dia 22/08 através deste formulário:**  
+[Formulário de envio do relatório](https://forms.gle/ZehV8712gDbsRYFF6)
+
+
 ---
 
 ## 🎯 **Critérios de Avaliação (2,0 pts)**
