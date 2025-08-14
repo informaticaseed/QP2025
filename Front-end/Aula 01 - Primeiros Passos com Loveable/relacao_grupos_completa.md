@@ -99,7 +99,7 @@
 **Link Loveable:** _________________________________
 
 ### **Grupo 5**
-**Integrantes:** Marília, Lara, Victória Dhafne  
+**Integrantes:** Marília, Lara, Victória Dhafne , Enzo 
 **Tema:** Chatbot - Sobre as disciplinas (horário, professores, disciplinas)  
 **Link Loveable:** _________________________________
 
@@ -114,7 +114,7 @@
 **Link Loveable:** _________________________________
 
 ### **Grupo 8**
-**Integrantes:** Savio, Vítor, Davi Brasileiro, Arthur Feitosa  
+**Integrantes:** Savio, Vítor, Davi Brasileiro, Arthur Feitosa, Valentina 
 **Tema:** Chatbot - Dúvidas de todas as disciplinas da escola  
 **Link Loveable:** _________________________________
 
@@ -128,7 +128,7 @@
 **Link Loveable:** _________________________________
 
 ### **Grupo 2**
-**Integrantes:** Lucas Gabriel 
+**Integrantes:** Lucas Gabriel, Samuel 
 **Tema:** Esportes  
 **Link Loveable:** _________________________________
 
@@ -139,7 +139,7 @@
 
 ### **Grupo 4**
 **Integrantes:** Carlos, Hanna
-**Tema:** Prfessor de Física  
+**Tema:** Professor de Física  
 **Link Loveable:** _________________________________
 
 ### **Grupo 5**
@@ -192,7 +192,7 @@
 **Link Loveable:** _________________________________
 
 ### **Grupo 3**
-**Integrantes:** Hugo Araújo de Sousa F., Pedro Luis, Rafaella Faustino, Luis Eduardo de Silva Torres  
+**Integrantes:** Hygo Araújo de Sousa F., Pedro Luis, Rafaella Faustino, Luis Eduardo de Silva Torres  
 **Tema TCC:** Área da saúde  
 **Link Loveable:** _________________________________
 
@@ -201,13 +201,9 @@
 **Tema TCC:** Licitações no DF  
 **Link Loveable:** _________________________________
 
-### **Grupo 5**
-**Integrantes:** Teodoro, Pedro Eulissea, Mirella Magano, Isaac  
-**Tema TCC:** Segurança de dados  
-**Link Loveable:** _________________________________
 
-### **Grupo 6**
-**Integrantes:** Luiz Fernando, Ana Júlia, Izabella, Akira, Landa, Letícia, Emilly  
+### **Grupo 5**
+**Integrantes:** Luiz Fernando, Ana Júlia, Izabella, Akira, Agda, Letícia, Emilly  
 **Tema TCC:** Aprovação de faculdades  
 **Link Loveable:** _________________________________
 
