@@ -25,7 +25,7 @@
 **Link Loveable:** _________________________________
 
 ### **Grupo 5**
-**Integrantes:** Asafe, Enzo, Lívia, Adrean  
+**Integrantes:** Asafe, Enzo, Lívia, Adrean, Erick 
 **Tema:** Chatbot para disciplina de História  
 **Link Loveable:** _________________________________
 

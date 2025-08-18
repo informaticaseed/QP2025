@@ -46,7 +46,7 @@ ORIENTAÇÃO:
 
 O arquivo **DOCUMENTO DE DEFINIÇÃO.docx** está disponível na pasta da disciplina:
 
-[DOCUMENTO DE DEFINIÇÃO.docx](./DOCUMENTO%20DE%20DEFINI%C3%A7%C3%83O.docx)
+[DOCUMENTO DE DEFINIÇÃO.docx](./DOCUMENTO.docx)
 Baixe e utilize este arquivo como base para preencher as informações do seu grupo.
 
 **Envie o relatório preenchido até o dia 22/08 através deste formulário:**  
