@@ -1,445 +1,288 @@
-# 🎨 2º ANO - Semana 4: Design e Funcionalidades do Chatbot
+# 🎯 2º ANO - Aula 03: Avaliação do Loveable + Introdução ao Admin Tkinter
 
-## 🎯 **Objetivo da Semana**
-Personalizar visual do chatbot e implementar funcionalidades básicas
+## 🎯 **Objetivo da Aula**
+Avaliar projetos desenvolvidos no Loveable e introduzir conceito de interface administrativa com tkinter
 
-**Meta:** Chatbot com identidade visual própria e respostas automáticas funcionando
-
----
-
-## ⏰ **AULA 1: Personalização Visual (50 min)**
-
-### **0-5 min: Check-in da Navegação**
-```
-VERIFICAÇÃO RÁPIDA:
-□ Quantos grupos têm navegação funcionando?
-□ Principais problemas identificados
-□ Links ainda estão ativos?
-
-OBJETIVO DA AULA:
-"Hoje vamos dar personalidade ao chatbot com cores,
-ícones e design únicos para cada grupo."
-```
-
-### **5-15 min: Demo de Personalização**
-**Demonstrar ao vivo:**
-- Como escolher paleta de cores
-- Adicionar ícones e emojis
-- Melhorar tipografia
-- **Backup no Figma:** Se Loveable falhar
-
-### **15-40 min: Trabalho Prático**
-**Grupos aplicam melhorias usando templates**
-
-
-### **45-50 min: Save Point**
-- Salvar versão atual
-- Anotar melhorias aplicadas
+**Meta:** Avaliar chatbots + planejar interface administrativa em Python
 
 ---
 
-## ⏰ **AULA 2: Atividade Avaliativa + Funcionalidades (50 min)**
+## ⏰ **Cronograma da Aula (50 min)**
 
-### **0-5 min: Organização**
-### **5-35 min: ATIVIDADE AVALIATIVA (2,0 pts)**
-### **35-45 min: Funcionalidades Básicas** 
+### **0-5 min: Check-in e Organização**
+```
+VERIFICAÇÕES INICIAIS:
+□ Links do Loveable funcionando
+□ Projetos implementaram landing page
+□ Grupos estão organizados
+□ Material de avaliação distribuído
+```
+
+### **5-20 min: AVALIAÇÃO PRÁTICA DOS PROJETOS (3,0 pts)**
+**Dinâmica de Avaliação:**
+- Cada grupo apresenta seu chatbot (2 min cada)
+- Demonstração ao vivo das funcionalidades
+- Professor testa navegação e design
+
+### **20-35 min: Introdução ao Tkinter Admin**
+**Conceitos apresentados:**
+- O que é uma interface administrativa
+- Tkinter vs interfaces web (diferenças)
+- Exemplos de telas admin simples
+- Planejamento da próxima etapa
+
+### **35-45 min: Planejamento da Interface Admin**
+**Trabalho em grupos:**
+- Definir que funcionalidades admin o bot precisa
+- Esboçar telas principais no papel
+- Escolher responsabilidades
+
 ### **45-50 min: Próximos Passos**
+- Revisão do que foi planejado
+- Materiais para próxima aula
+- Preparação para atividade autônoma
 
 ---
 
-## 🎨 **Templates de Personalização**
+## 📊 **AVALIAÇÃO DOS PROJETOS LOVEABLE (3,0 pts)**
 
-### **Template 1: Cores e Identidade**
+### **Critérios de Avaliação:**
+
+#### **Funcionalidade (1,0 pt)**
 ```
-Personalize meu chatbot educacional:
+NAVEGAÇÃO (0,5 pt):
+□ Menu funciona corretamente
+□ Links entre páginas funcionam
+□ Volta ao início funciona
+□ Sem erros de carregamento
 
-IDENTIDADE VISUAL:
-- Nome do bot: [ESCOLHAM UM NOME CRIATIVO]
-- Cores principais: [ESCOLHER PALETA ABAIXO]
-- Personalidade: [amigável/profissional/divertido/tecnológico]
-
-PALETA DE CORES (escolham uma):
-OPÇÃO 1 - Azul tecnológico: #2563eb, #1d4ed8, #1e40af
-OPÇÃO 2 - Verde amigável: #10b981, #059669, #047857  
-OPÇÃO 3 - Roxo criativo: #8b5cf6, #7c3aed, #6d28d9
-OPÇÃO 4 - Laranja energético: #f97316, #ea580c, #dc2626
-
-ELEMENTOS VISUAIS:
-- Emoji característico no header
-- Ícones no menu: 🏠 Home, 💬 Chat, ℹ️ Sobre
-- Botões arredondados com hover effects
-- Typography legível e moderna
-
-PERSONALIZAÇÃO:
-- Mensagem de boas-vindas única do grupo
-- Slogan/frase do bot
-- Footer com "Criado por [GRUPO]"
-- Loading message: "Bot está pensando..."
+CHATBOT (0,5 pt):
+□ Interface de chat visível
+□ Campo de input funciona
+□ Mensagens aparecem
+□ Design da conversa adequado
 ```
 
-### **Template 2: Melhoria de UX**
+#### **Design e Usabilidade (1,0 pt)**
 ```
-Melhore a experiência do usuário do meu chatbot:
+VISUAL (0,5 pt):
+□ Cores harmoniosas
+□ Layout organizado
+□ Responsivo no celular
+□ Identidade visual coerente
 
-INTERFACE:
-- Campo de input mais visível e atrativo
-- Placeholder motivador: "Qual sua dúvida? Estou aqui para ajudar!"
-- Botão de envio mais destaque
-- Área de mensagens mais organizada
-
-INTERAÇÕES:
-- Mensagens do bot aparecem com delay realista
-- Indicador "bot está digitando..." 
-- Scroll automático para nova mensagem
-- Hover effects nos botões
-
-NAVEGAÇÃO:
-- Breadcrumbs para orientação
-- Botão "Voltar ao topo"
-- Menu sticky (fica fixo no scroll)
-- Links com estados visuais claros
-
-RESPONSIVIDADE:
-- Otimizar para celular
-- Textos legíveis em tela pequena
-- Botões com tamanho adequado para touch
-- Menu mobile friendly
+USABILIDADE (0,5 pt):
+□ Fácil de navegar
+□ Botões claros
+□ Textos legíveis
+□ Interface intuitiva
 ```
 
-### **Template 3: Conteúdo Atrativo**
+#### **Conteúdo e Personalização (1,0 pt)**
 ```
-Adicione conteúdo envolvente ao meu chatbot:
+CONTEÚDO (0,5 pt):
+□ Textos relacionados ao tema
+□ Informações úteis
+□ Mensagens bem escritas
+□ Landing page informativa
 
-PÁGINA HOME:
-- Hero section com call-to-action claro
-- Cards com principais funcionalidades
-- Seção "Como posso ajudar você?" com exemplos
-- Estatísticas fictícias: "Já respondi 500+ perguntas!"
-
-PÁGINA CHAT:
-- Sugestões de perguntas iniciais em botões
-- Mensagem de boas-vindas personalizada
-- Quick replies para respostas comuns
-- Exemplo de conversa animada
-
-PÁGINA SOBRE:
-- História do projeto em formato timeline
-- Cards com informações dos criadores
-- Seção "Tecnologias utilizadas" com ícones
-- FAQ sobre o funcionamento do bot
-
-MICROTEXTOS:
-- Mensagens de erro amigáveis
-- Loading states divertidos
-- Confirmações positivas
-- Empty states informativos
+PERSONALIZAÇÃO (0,5 pt):
+□ Nome criativo para o bot
+□ Tema bem definido
+□ Diferente dos outros grupos
+□ Demonstra esforço da equipe
 ```
 
 ---
 
-## 📝 **ATIVIDADE AVALIATIVA - VALE 2,0 PONTOS (30 min)**
+## 🖥️ **Introdução ao Admin Tkinter**
 
+### **Por que Interface Administrativa?**
 ```
-═══════════════════════════════════════════════════
-ATIVIDADE: ANÁLISE DE DESIGN E USABILIDADE
-2º ANO - SEMANA 4 | VALOR: 2,0 pontos | TEMPO: 30 min
-═══════════════════════════════════════════════════
+LOVEABLE = Front-end (usuários finais)
+TKINTER = Back-office (administradores)
 
-NOME: _________________________________ TURMA: _____
-GRUPO: ______________________________________________
-
-INSTRUÇÕES:
-✓ Atividade INDIVIDUAL 
-✓ Baseada no projeto do seu grupo
-✓ Seja honesto e crítico
-✓ Respostas claras e justificadas
+EXEMPLOS DE FUNCIONALIDADES ADMIN:
+□ Cadastrar novas respostas do bot
+□ Ver estatísticas de uso
+□ Gerenciar perguntas frequentes
+□ Configurar mensagens automáticas
+□ Backup das conversas
 ```
 
-### **PARTE 1: Análise do Design Atual (0,8 pts)**
-
-#### **1.1 Identidade Visual (0,4 pts)**
+### **Vantagens do Tkinter:**
 ```
-Nome do seu chatbot: _________________________
-
-Cores principais utilizadas:
-1. _________________________________________
-2. _________________________________________  
-3. _________________________________________
-
-Descreva a "personalidade" do seu bot:
-□ Amigável e acolhedor
-□ Profissional e sério
-□ Divertido e descontraído  
-□ Tecnológico e moderno
-□ Outro: ___________________________________
-
-Justifique sua escolha:
-___________________________________________
-___________________________________________
-
-O design atual reflete essa personalidade?
-□ Sim, perfeitamente
-□ Sim, na maior parte
-□ Parcialmente  
-□ Não muito
-□ Não reflete
-
-Por quê?
-___________________________________________
-___________________________________________
+✅ Já conhecem Python
+✅ Interface simples e funcional
+✅ Não precisa de servidor
+✅ Fácil de instalar e usar
+✅ Integração com LTP2
 ```
 
-#### **1.2 Usabilidade (0,4 pts)**
+### **Exemplos de Telas Admin:**
+
+#### **1. Tela Principal (Dashboard)**
 ```
-Teste SEU próprio projeto e marque:
-
-NAVEGAÇÃO:
-□ Menu é fácil de encontrar
-□ Links funcionam corretamente
-□ É fácil voltar à página inicial
-□ Sei sempre em que página estou
-
-CHAT:
-□ Campo de input é visível
-□ Botão de enviar é claro
-□ Mensagens são legíveis
-□ Interface é intuitiva
-
-MOBILE:
-□ Funciona bem no celular
-□ Textos estão legíveis
-□ Botões são clicáveis facilmente
-□ Layout não quebra
-
-Maior PROBLEMA de usabilidade encontrado:
-___________________________________________
-___________________________________________
-
-Como você resolveria esse problema:
-___________________________________________
-___________________________________________
+┌─ [BOT ADMIN] ──────────────────┐
+│                                │
+│  📊 Dashboard                  │
+│  ├── Total de conversas: 150   │
+│  ├── Perguntas hoje: 25        │
+│  └── Última atualização: 10:30 │
+│                                │
+│  [Gerenciar Respostas]         │
+│  [Ver Estatísticas]            │
+│  [Configurações]               │
+│                                │
+└────────────────────────────────┘
 ```
 
-### **PARTE 2: Benchmarking (0,6 pts)**
-
-#### **2.1 Análise de Concorrente (0,3 pts)**
+#### **2. Cadastro de Respostas**
 ```
-Teste o projeto de OUTRO GRUPO por 3 minutos.
-
-Grupo testado: _____________________________
-
-O que eles fizeram MELHOR que vocês:
-___________________________________________
-___________________________________________
-
-Uma IDEIA específica que vocês poderiam adaptar:
-___________________________________________
-___________________________________________
-
-Nota que você daria para o projeto deles (1-10): ____
-Justifique: ________________________________
-___________________________________________
+┌─ [CADASTRAR RESPOSTA] ─────────┐
+│                                │
+│  Palavra-chave: [horario___]   │
+│                                │
+│  Resposta:                     │
+│  ┌────────────────────────────┐ │
+│  │A escola funciona de 7h às  │ │
+│  │22h, de segunda a sexta.    │ │
+│  └────────────────────────────┘ │
+│                                │
+│  [Salvar]  [Cancelar]          │
+│                                │
+└────────────────────────────────┘
 ```
 
-#### **2.2 Referências Externas (0,3 pts)**
+#### **3. Lista de Perguntas**
 ```
-Pense em 1 CHATBOT real que você já usou:
-(WhatsApp Business, atendimento de loja, etc.)
-
-Nome/empresa: ______________________________
-
-O que ele fazia BEM:
-___________________________________________
-___________________________________________
-
-O que seu grupo poderia COPIAR dessa ideia:
-___________________________________________
-___________________________________________
-
-É VIÁVEL implementar isso no seu projeto?
-□ Sim, facilmente
-□ Sim, com esforço
-□ Talvez, precisa estudar
-□ Não, muito complexo
-
-Por quê?
-___________________________________________
-___________________________________________
-```
-
-### **PARTE 3: Planejamento de Melhorias (0,6 pts)**
-
-#### **3.1 Próximas Melhorias (0,4 pts)**
-```
-Para as PRÓXIMAS 2 SEMANAS, listem melhorias:
-
-PRIORIDADE ALTA (obrigatório fazer):
-1. _____________________________________
-2. _____________________________________
-3. _____________________________________
-
-PRIORIDADE MÉDIA (se der tempo):
-1. _____________________________________
-2. _____________________________________
-
-SUA responsabilidade específica:
-___________________________________________
-___________________________________________
-
-Como seu grupo vai se organizar para fazer isso:
-___________________________________________
-___________________________________________
-```
-
-#### **3.2 Autoavaliação (0,2 pts)**
-```
-Numa escala de 1 a 10:
-
-Design atual do projeto: ______
-Sua participação no grupo: ______
-Colaboração da equipe: ______
-
-O que você precisa MELHORAR pessoalmente:
-___________________________________________
-___________________________________________
-
-Se pudesse refazer o projeto do zero, 
-o que faria DIFERENTE:
-___________________________________________
-___________________________________________
-___________________________________________
+┌─ [PERGUNTAS CADASTRADAS] ──────┐
+│                                │
+│  🔍 Buscar: [_______]          │
+│                                │
+│  □ horario → "Funcionamos..."  │
+│  □ professor → "Temos profes..." │
+│  □ laboratório → "Labs no 1º..." │
+│                                │
+│  [Editar] [Excluir] [Novo]     │
+│                                │
+└────────────────────────────────┘
 ```
 
 ---
 
-## 🤖 **Funcionalidades Básicas (15 min)**
+## 📝 **Planejamento da Interface Admin (15 min)**
 
-### **Templates para Respostas Automáticas:**
+### **Atividade em Grupos:**
 
-#### **Template Simples:**
+#### **Passo 1: Definir Funcionalidades (5 min)**
 ```
-Adicione respostas automáticas básicas ao meu chatbot:
+CADA GRUPO ANOTA:
+□ Que tipo de dados o admin precisa gerenciar?
+□ Que relatórios seriam úteis?
+□ Que configurações são necessárias?
+□ Como o admin vai usar o sistema?
 
-PALAVRAS-CHAVE E RESPOSTAS:
-- "oi", "olá", "hello" → "Olá! Sou o [NOME DO BOT]. Como posso ajudar você hoje? 😊"
-- "ajuda", "help" → "Posso ajudar com: informações da escola, horários, laboratórios e muito mais!"
-- "tchau", "bye", "obrigado" → "Foi um prazer ajudar! Volte sempre que precisar! 👋"
-
-PERGUNTAS FREQUENTES:
-- "horário" → "Nossa escola funciona de 7h às 22h, de segunda a sexta."
-- "laboratório", "lab" → "Temos labs de informática (1º andar), redes (2º andar) e eletrônica (térreo)."
-- "biblioteca" → "A biblioteca fica no 2º andar e funciona de 8h às 21h."
-
-RESPOSTAS PADRÃO:
-- Palavras não reconhecidas → "Não entendi sua pergunta. Pode reformular? Ou digite 'ajuda' para ver o que posso fazer!"
+EXEMPLOS:
+Bot do Calouro → Cadastrar horários, professores, locais
+Tutor de Matérias → Gerenciar exercícios, respostas
+Info da Escola → Atualizar eventos, notícias
 ```
 
-#### **Para Cada Tema:**
+#### **Passo 2: Esboçar Telas (7 min)**
+```
+DESENHAR NO PAPEL:
+□ Tela principal (dashboard)
+□ Tela de cadastro principal
+□ Tela de listagem/pesquisa
 
-**Bot do Calouro:**
-```
-RESPOSTAS ESPECÍFICAS:
-- "secretaria" → "A secretaria fica no térreo, próximo à entrada principal. Horário: 7h às 17h."
-- "professor" → "Que matéria você quer saber? Temos professores de todas as disciplinas!"
-- "uniforme" → "O uniforme é obrigatório: camisa branca ou azul da escola + calça jeans."
-- "recreio" → "O recreio é das 9h40 às 10h (manhã) e das 15h40 às 16h (tarde)."
-```
-
-**Tutor de Disciplinas:**
-```
-RESPOSTAS ESPECÍFICAS:
-- "matemática" → "Posso ajudar com álgebra, geometria, trigonometria. Qual sua dúvida específica?"
-- "português" → "Gramática, redação, literatura? Me diga o que precisa!"
-- "física" → "Mecânica, eletricidade, ondas? Vamos resolver juntos!"
-- "exercício" → "Que matéria? Tenho exercícios práticos para você treinar!"
+INCLUIR:
+□ Títulos das janelas
+□ Campos necessários
+□ Botões principais
+□ Como navegar entre telas
 ```
 
-**Info da Escola:**
+#### **Passo 3: Dividir Responsabilidades (3 min)**
 ```
-RESPOSTAS ESPECÍFICAS:
-- "matricula" → "Para matrícula, procure a secretaria com RG, CPF e histórico escolar."
-- "cantina" → "A cantina fica no pátio central. Preços acessíveis e comida gostosa!"
-- "eventos" → "Sempre temos eventos! Acompanhe o mural ou pergunte na secretaria."
-- "coordenação" → "Coordenação pedagógica fica no 1º andar, sala 105."
+DEFINIR QUEM VAI:
+□ Estudar tkinter básico
+□ Preparar dados de exemplo
+□ Desenhar as interfaces
+□ Testar as funcionalidades
 ```
 
 ---
 
-## 📊 **Critérios de Avaliação**
+## 📋 **Resultados da Aula**
 
-### **Atividade Individual (2,0 pts):**
-- **Análise de Design (0,8):** Honesta e detalhada
-- **Benchmarking (0,6):** Comparações construtivas  
-- **Planejamento (0,6):** Melhorias realistas
-
-### **Progresso do Projeto (Observação):**
-- Melhorias visuais aplicadas
-- Funcionalidades implementadas
-- Colaboração no grupo
-- Engajamento nas atividades
-
----
-
-## 🏠 **Para Casa**
-
-### **Individual:**
+### **Cada Grupo Deve Ter:**
 ```
-PESQUISA OBRIGATÓRIA:
-Encontre 10 perguntas que um aluno novo faria sobre nossa escola
-
-CATEGORIAS (2-3 perguntas cada):
-□ Localização (onde fica X?)
-□ Horários (quando funciona X?)
-□ Procedimentos (como fazer X?)
-□ Pessoas (quem é o/a X?)
-
-Anote as perguntas + respostas corretas
+✅ Nota da avaliação do Loveable registrada
+✅ Lista de funcionalidades admin definidas
+✅ Esboços das 3 telas principais no papel
+✅ Divisão de tarefas para próxima etapa
+✅ Compreensão do objetivo do admin tkinter
 ```
 
-### **Grupo:**
+### **Para Casa:**
 ```
-IMPLEMENTAÇÃO:
-□ Aplicar melhorias identificadas na atividade
-□ Testar projeto no celular de cada membro
-□ Implementar pelo menos 5 respostas automáticas
-□ Preparar lista de perguntas/respostas para próxima aula
+INDIVIDUAL:
+□ Pesquisar "tkinter python tutorial básico"
+□ Assistir 1 vídeo sobre interface gráfica em Python
+□ Anotar dúvidas sobre tkinter
+
+GRUPO:
+□ Organizar dados que vão gerenciar no admin
+□ Criar lista de 10 perguntas/respostas exemplo
+□ Preparar material para próxima atividade
 ```
 
 ---
 
-## 🎯 **Preparação para Semana 5**
+## 🚀 **Próxima Etapa: Preparação para Aula 04**
 
-### **Atividade Autônoma:**
-- Material já preparado para professor substituto
-- Atividades valem 3,0 pontos
-- Foco em teste e documentação
+### **Atividade Autônoma da Próxima Semana:**
+- Professor substituto aplicará atividade preparada
+- Valor: 2,0 pontos 
+- Foco: Planejamento detalhado da interface admin
+- Material: Será entregue pronto para aplicação
 
-### **Preparar para Aula:**
-- Lista com todas as melhorias implementadas
-- Banco de perguntas/respostas sobre a escola
-- Versão atual funcionando e testada
+### **Preparação dos Alunos:**
+```
+TRAZER PARA PRÓXIMA AULA:
+□ Esboços feitos hoje
+□ Lista de funcionalidades definidas
+□ Dúvidas anotadas sobre tkinter
+□ Dados exemplo organizados
+```
 
 ---
 
 ## 📝 **Anotações do Professor**
 
-### **Progressos por Grupo:**
+### **Avaliação por Grupo:**
 ```
 GRUPO: ________________________
-STATUS: □ Avançando □ No prazo □ Atrasado
+NOTA LOVEABLE: _____ / 3,0
 
-MELHORIAS APLICADAS:
-___________________________________
+FUNCIONALIDADE: _____ / 1,0
+□ Navegação OK □ Chat OK
 
-DIFICULDADES:
-___________________________________
+DESIGN: _____ / 1,0  
+□ Visual OK □ Usabilidade OK
 
-PRÓXIMA AÇÃO:
-___________________________________
+CONTEÚDO: _____ / 1,0
+□ Conteúdo OK □ Personalização OK
+
+OBSERVAÇÕES:
+_____________________________
 ```
 
-### **Ajustes para Próxima Semana:**
-- Grupos que precisam atenção especial
-- Funcionalidades que estão funcionando bem
-- Problemas técnicos recorrentes
-- Material que precisa ser ajustado
+### **Planejamento Admin:**
+```
+GRUPOS COM BOM PLANEJAMENTO: _____
+GRUPOS QUE PRECISAM ATENÇÃO: _____
+PRINCIPAIS DIFICULDADES: _____
+AJUSTES PARA PRÓXIMA SEMANA: _____
+```
