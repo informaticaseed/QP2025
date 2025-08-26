@@ -5,7 +5,7 @@
 ## **2º ANO A - ASSISTENTE VIRTUAL**
 
 ### **Grupo 1**
-**Integrantes:** Ana Carolina, Carolinne, Luiz Eduardo, Sara  
+**Integrantes:** Ana Carolina, Carolinne, Luiz Eduardo  
 **Tema:** Chatbox - Dúvidas de Português e Matemática  
 **Link Loveable:** _________________________________
 
@@ -15,7 +15,7 @@
 **Link Loveable:** _________________________________
 
 ### **Grupo 3**
-**Integrantes:** João Pedro, Natan, Guilherme, Arthur Medeiros, Rafaela, Riquelme  
+**Integrantes:** João Pedro, Natan, Guilherme, Arthur Medeiros, Rafaela, Riquelme, Yago
 **Tema:** Chatbox - Matemática  
 **Link Loveable:** _________________________________
 
