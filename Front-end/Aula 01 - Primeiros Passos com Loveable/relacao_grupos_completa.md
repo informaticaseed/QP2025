@@ -34,6 +34,11 @@
 **Tema:** Chatbot Alimentação da Escola  
 **Link Loveable:** _________________________________
 
+### **Grupo 7**
+**Integrantes:** Sara, Ana Clara  
+**Tema:** Sem tema  
+**Link Loveable:** _________________________________
+
 
 ---
 
