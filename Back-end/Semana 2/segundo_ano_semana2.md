@@ -1,246 +1,235 @@
-# 🚀 2º Ano - Semana 2: Minha Primeira API
+# 🚀 2º Ano - Semana 2: API REST - CRUD Completo
 
-**Aulas 3-4:** Criar API Flask do zero
+**Aulas 3-4:** Criar API com todos os métodos HTTP
 **Duração:** 2 aulas (100 min)
 **Avaliação:** 1,5 pontos
 
 ---
 
-## 🎯 O que vamos fazer?
+## 🎯 Essência do Back-end
 
-Criar uma API (servidor) que responde perguntas automaticamente.
+**API = Servidor que responde requisições**
 
-**Essência do Back-end:**
-- Receber dados (pergunta)
-- Processar (buscar resposta)
-- Retornar resultado (resposta)
+Verbos HTTP (o que você quer fazer):
+- **GET** → Buscar/Ler dados
+- **POST** → Criar dados novos
+- **PUT** → Atualizar dados completos
+- **PATCH** → Atualizar parte dos dados
+- **DELETE** → Apagar dados
 
 ---
 
-## 💻 AULA 3: Criando a API
+## 💻 AULA 3: CRUD Completo
 
-### Início (10 min)
+### Início (5 min)
 
-**ESCOLHA UMA OPÇÃO:**
-
-**Opção A: Google Colab (Mais simples - Recomendado)**
+**Setup:**
 ```
-1. Acesse: colab.research.google.com
-2. Novo notebook
-3. Cole o código
-4. Clique em ▶️ Executar
-5. Nenhuma instalação necessária!
-```
-
-**Opção B: Python.org (Se tiver Python instalado)**
-```
-1. Crie pasta: chatbot_api
+1. Crie pasta: api_produtos
 2. Crie arquivo: app.py
-3. Abra terminal nesta pasta
-4. Execute: pip install flask
+3. Terminal: pip install flask
+4. Execute: python app.py
 ```
 
-**Opção C: VS Code com Python**
-```
-1. Crie arquivo: app.py
-2. Terminal: pip install flask
-3. Execute: python app.py
-```
+### Meio (40 min)
 
-### Meio (35 min)
-
-**Código Completo - Digite junto com o professor:**
+**Código Completo - API de Produtos:**
 
 ```python
 from flask import Flask, jsonify, request
 
 app = Flask(__name__)
 
-# Lista de respostas (nosso "banco de dados")
-respostas = [
-    {"pergunta": "oi", "resposta": "Olá! Como posso ajudar?"},
-    {"pergunta": "horário", "resposta": "Funcionamos de segunda a sexta, 7h-22h"},
-    {"pergunta": "telefone", "resposta": "Nosso telefone: (11) 1234-5678"}
+# Banco de dados (lista em memória)
+produtos = [
+    {"id": 1, "nome": "Notebook", "preco": 3000, "estoque": 5},
+    {"id": 2, "nome": "Mouse", "preco": 50, "estoque": 20},
+    {"id": 3, "nome": "Teclado", "preco": 150, "estoque": 15}
 ]
 
-# Rota 1: Ver todas as respostas
-@app.route('/ver')
-def ver_todas():
-    return jsonify(respostas)
+# GET - Listar todos os produtos
+@app.route('/produtos', methods=['GET'])
+def listar_produtos():
+    return jsonify(produtos)
 
-# Rota 2: Perguntar ao bot
-@app.route('/perguntar')
-def perguntar():
-    # Pega a pergunta da URL (?p=oi)
-    pergunta = request.args.get('p', '').lower()
+# GET - Buscar um produto específico
+@app.route('/produtos/<int:id>', methods=['GET'])
+def buscar_produto(id):
+    produto = next((p for p in produtos if p['id'] == id), None)
+    if produto:
+        return jsonify(produto)
+    return jsonify({"erro": "Produto não encontrado"}), 404
 
-    # Busca a resposta
-    for item in respostas:
-        if item['pergunta'] in pergunta:
-            return jsonify({"resposta": item['resposta']})
+# POST - Criar novo produto
+@app.route('/produtos', methods=['POST'])
+def criar_produto():
+    novo = request.json
+    novo['id'] = max([p['id'] for p in produtos]) + 1
+    produtos.append(novo)
+    return jsonify(novo), 201
 
-    return jsonify({"resposta": "Não entendi. Tente outra pergunta."})
+# PUT - Atualizar produto completo
+@app.route('/produtos/<int:id>', methods=['PUT'])
+def atualizar_completo(id):
+    produto = next((p for p in produtos if p['id'] == id), None)
+    if not produto:
+        return jsonify({"erro": "Produto não encontrado"}), 404
 
-# Rota 3: Adicionar resposta nova
-@app.route('/adicionar')
-def adicionar():
-    nova_pergunta = request.args.get('p', '')
-    nova_resposta = request.args.get('r', '')
+    dados = request.json
+    produto['nome'] = dados.get('nome', produto['nome'])
+    produto['preco'] = dados.get('preco', produto['preco'])
+    produto['estoque'] = dados.get('estoque', produto['estoque'])
 
-    respostas.append({
-        "pergunta": nova_pergunta,
-        "resposta": nova_resposta
-    })
+    return jsonify(produto)
 
-    return jsonify({"mensagem": "Resposta adicionada!"})
+# PATCH - Atualizar apenas parte do produto
+@app.route('/produtos/<int:id>', methods=['PATCH'])
+def atualizar_parcial(id):
+    produto = next((p for p in produtos if p['id'] == id), None)
+    if not produto:
+        return jsonify({"erro": "Produto não encontrado"}), 404
 
-# Iniciar servidor
+    dados = request.json
+    if 'nome' in dados:
+        produto['nome'] = dados['nome']
+    if 'preco' in dados:
+        produto['preco'] = dados['preco']
+    if 'estoque' in dados:
+        produto['estoque'] = dados['estoque']
+
+    return jsonify(produto)
+
+# DELETE - Remover produto
+@app.route('/produtos/<int:id>', methods=['DELETE'])
+def deletar_produto(id):
+    global produtos
+    produto = next((p for p in produtos if p['id'] == id), None)
+    if not produto:
+        return jsonify({"erro": "Produto não encontrado"}), 404
+
+    produtos = [p for p in produtos if p['id'] != id]
+    return jsonify({"mensagem": "Produto deletado"})
+
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=5000)
 ```
 
-**O que cada parte faz:**
-
+**Resumo:**
 ```
-1. LISTA DE RESPOSTAS
-   - Guarda perguntas e respostas
-   - Como uma lista de contatos no celular
-
-2. ROTAS (URLs que a API responde)
-   /ver → mostra todas respostas
-   /perguntar?p=oi → faz uma pergunta
-   /adicionar?p=pergunta&r=resposta → adiciona nova resposta
-
-3. COMO FUNCIONA
-   - Recebe pergunta pela URL
-   - Procura na lista
-   - Retorna resposta em JSON
-```
-
-**Testando no navegador (15 min):**
-
-```
-DEPOIS DE EXECUTAR O CÓDIGO:
-
-1. Abra o navegador
-2. Acesse: http://127.0.0.1:5000/ver
-   ✅ Deve mostrar todas as respostas
-
-3. Teste fazer pergunta:
-   http://127.0.0.1:5000/perguntar?p=oi
-   ✅ Deve responder "Olá! Como posso ajudar?"
-
-4. Teste adicionar:
-   http://127.0.0.1:5000/adicionar?p=email&r=contato@escola.com
-   ✅ Depois teste /ver de novo
-
-5. PRÁTICA:
-   - Adicione 5 perguntas do seu tema
-   - Teste se funcionam
-   - Tire print das respostas
-```
-
-**ENTREGA (Vale 0,5 pontos):**
-```
-□ Código rodando
-□ 5 perguntas do tema do grupo funcionando
-□ Print da rota /ver mostrando suas perguntas
+GET /produtos           → Lista todos
+GET /produtos/1         → Busca produto ID 1
+POST /produtos          → Cria novo
+PUT /produtos/1         → Atualiza tudo do ID 1
+PATCH /produtos/1       → Atualiza só parte do ID 1
+DELETE /produtos/1      → Deleta ID 1
 ```
 
 ### Fim (5 min)
 
-**Checklist:**
-- [ ] Conseguiu rodar o código?
-- [ ] Entendeu como funciona?
-- [ ] Conseguiu adicionar perguntas?
+**Teste rápido:**
+```
+Navegador: http://127.0.0.1:5000/produtos
+✅ Deve mostrar os 3 produtos
+```
 
 **Para próxima aula:**
-- Vamos testar de forma profissional (direto no navegador, sem instalar nada)
+Instalar ferramenta para testar POST, PUT, PATCH, DELETE
 
 ---
 
-## 🧪 AULA 4: Testando como profissional
+## 🧪 AULA 4: Testando todos os métodos
 
 ### Início (10 min)
 
-**Vamos testar só usando o NAVEGADOR!**
+**Instalar Thunder Client (VS Code) ou Postman:**
 
-Nenhuma instalação necessária. Só precisa:
-1. Sua API rodando (do código da aula 3)
-2. Navegador aberto
-
-**Conceito importante:**
+**Opção 1 - Thunder Client (mais leve):**
 ```
-GET = pedir informação (como entrar num site)
-POST = enviar informação (não dá pra fazer só no navegador)
+VS Code → Extensions → "Thunder Client" → Install
 ```
 
-Como só usamos GET na nossa API, o navegador funciona perfeitamente!
-
-### Meio (35 min)
-
-**TESTES PRÁTICOS (Fazer junto)**
-
-**Teste 1: Ver todas respostas**
+**Opção 2 - Postman:**
 ```
-URL: http://127.0.0.1:5000/ver
-
-✅ Mostra lista completa
+postman.com/downloads → Instalar
 ```
 
-**Teste 2: Fazer 5 perguntas diferentes**
-```
-http://127.0.0.1:5000/perguntar?p=oi
-http://127.0.0.1:5000/perguntar?p=horário
-http://127.0.0.1:5000/perguntar?p=telefone
-http://127.0.0.1:5000/perguntar?p=email
-http://127.0.0.1:5000/perguntar?p=endereço
+### Meio (30 min)
 
-✅ Cada uma deve retornar resposta diferente
-❌ Se não achar, retorna "Não entendi"
+**TESTES - Fazer junto com o professor:**
+
+**1. GET - Listar todos**
+```
+Método: GET
+URL: http://127.0.0.1:5000/produtos
 ```
 
-**Teste 3: Adicionar 3 respostas novas**
+**2. GET - Buscar um específico**
 ```
-http://127.0.0.1:5000/adicionar?p=endereço&r=Rua ABC, 123
-http://127.0.0.1:5000/adicionar?p=email&r=contato@escola.com
-http://127.0.0.1:5000/adicionar?p=whatsapp&r=(11) 99999-9999
-
-Depois: acesse /ver para confirmar que foram adicionadas!
+Método: GET
+URL: http://127.0.0.1:5000/produtos/1
 ```
 
-**ATIVIDADE INDIVIDUAL (20 min)**
-
+**3. POST - Criar novo**
 ```
-MISSÃO: Criar chatbot do seu tema
-
-1. Adicionar 10 perguntas úteis sobre seu tema
-   Exemplos de temas:
-   - Escola: matérias, professores, horários
-   - Loja: produtos, preços, formas de pagamento
-   - Restaurante: cardápio, horário, delivery
-
-2. Testar TODAS as perguntas
-
-3. Tirar prints de:
-   - /ver com todas as 10 perguntas
-   - 3 perguntas sendo respondidas corretamente
-   - 1 pergunta que não tem resposta
-
-VALE 1,0 PONTO
+Método: POST
+URL: http://127.0.0.1:5000/produtos
+Body (JSON):
+{
+  "nome": "Monitor",
+  "preco": 800,
+  "estoque": 10
+}
 ```
 
-### Fim (5 min)
-
-**ENTREGA FINAL:**
+**4. PUT - Atualizar completo**
 ```
-□ 10 perguntas cadastradas
-□ Prints dos testes
-□ Tudo funcionando
+Método: PUT
+URL: http://127.0.0.1:5000/produtos/1
+Body (JSON):
+{
+  "nome": "Notebook Gamer",
+  "preco": 5000,
+  "estoque": 3
+}
 ```
 
-**Próxima semana:**
-Adicionar inteligência artificial de verdade (ChatGPT/Groq) no seu chatbot!
+**5. PATCH - Atualizar só o preço**
+```
+Método: PATCH
+URL: http://127.0.0.1:5000/produtos/1
+Body (JSON):
+{
+  "preco": 2800
+}
+```
+
+**6. DELETE - Remover produto**
+```
+Método: DELETE
+URL: http://127.0.0.1:5000/produtos/2
+```
+
+### ATIVIDADE (10 min)
+
+**DESAFIO: Criar API de outro tema**
+
+Adapte o código para um destes temas:
+- **Alunos:** id, nome, turma, nota
+- **Livros:** id, titulo, autor, ano
+- **Filmes:** id, titulo, genero, duracao
+- **Tarefas:** id, titulo, concluida, prioridade
+
+**Requisitos:**
+1. Implementar todas as rotas (GET, POST, PUT, PATCH, DELETE)
+2. Testar todas as operações
+3. Ter pelo menos 3 itens no banco inicial
+
+**ENTREGA (Vale 1,5 pontos):**
+```
+□ Código da API funcionando
+□ Prints de todos os 6 testes
+□ Arquivo .py enviado
+```
 
 ---
 
@@ -248,14 +237,15 @@ Adicionar inteligência artificial de verdade (ChatGPT/Groq) no seu chatbot!
 
 **Total: 1,5 pontos**
 
-| Atividade | Pontos |
-|-----------|--------|
-| API funcionando com 5 perguntas (Aula 3) | 0,5 |
-| 10 perguntas testadas (Aula 4) | 1,0 |
+| Critério | Pontos |
+|----------|--------|
+| API completa funcionando (todas as rotas) | 0,6 |
+| Testes corretos (6 prints) | 0,6 |
+| Código limpo e organizado | 0,3 |
 
 ---
 
-## 💡 Se der erro
+## 💡 Problemas Comuns
 
 **"ModuleNotFoundError: flask"**
 ```bash
@@ -264,26 +254,38 @@ pip install flask
 
 **"Porta já em uso"**
 ```python
-# Mude a última linha para:
-app.run(debug=True, port=5001)
+app.run(debug=True, port=5001)  # Troque a porta
 ```
 
-**"Não consegue acessar no navegador"**
+**"405 Method Not Allowed"**
 ```
-1. Veja se o código está rodando (sem erros no terminal)
-2. Use: http://127.0.0.1:5000/ver
-3. Não use "localhost", use "127.0.0.1"
+Verifique se está usando o método HTTP correto
+POST/PUT/PATCH/DELETE não funcionam no navegador
+Use Thunder Client ou Postman
+```
+
+**Erro no DELETE:**
+```python
+# Adicione 'global produtos' no início da função
+global produtos
+produtos = [p for p in produtos if p['id'] != id]
 ```
 
 ---
 
 ## 🏠 Para Casa
 
-**Preparar para Semana 3:**
+**Estudar para próxima semana:**
+- Conectar API com banco de dados (SQLite)
+- Autenticação com JWT
+- Deploy da API na internet
 
-1. Sua API funcionando com 10+ perguntas
-2. Criar conta em: console.groq.com
-3. Guardar a chave de API do Groq
-
-**Próxima semana:**
-Adicionar IA de verdade no chatbot!
+**Desafio extra (opcional):**
+Adicionar rota de busca:
+```python
+@app.route('/produtos/buscar', methods=['GET'])
+def buscar_por_nome():
+    nome = request.args.get('nome', '')
+    resultado = [p for p in produtos if nome.lower() in p['nome'].lower()]
+    return jsonify(resultado)
+```
