@@ -1,450 +1,279 @@
-# 🚀 2º Ano - Semana 2: Flask - Criando API para o Chatbot
+# 🚀 2º Ano - Semana 2: Minha Primeira API
 
-**Aulas 3-4:** Primeira API Flask + Testes com Postman  
-**Duração:** 2 aulas (100 min)  
+**Aulas 3-4:** Criar API Flask do zero
+**Duração:** 2 aulas (100 min)
 **Avaliação:** 1,5 pontos
 
 ---
 
-## 🎯 Objetivos
+## 🎯 O que vamos fazer?
 
-- Criar primeira API com Flask
-- Implementar rotas para o chatbot
-- Testar APIs com Postman/Thunder Client
-- Adaptar para o projeto do grupo
+Criar uma API (servidor) que responde perguntas automaticamente.
+
+**Essência do Back-end:**
+- Receber dados (pergunta)
+- Processar (buscar resposta)
+- Retornar resultado (resposta)
 
 ---
 
-## 💻 AULA 3: Primeira API Flask
+## 💻 AULA 3: Criando a API
 
 ### Início (10 min)
 
-**Setup Rápido:**
+**ESCOLHA UMA OPÇÃO:**
 
-**Opção 1: Replit (Recomendado)**
+**Opção A: Google Colab (Mais simples - Recomendado)**
 ```
-1. Acesse replit.com
-2. Create Repl → Python
-3. Flask já vem instalado
-4. Crie arquivo: main.py
-```
-
-**Opção 2: Computador Local**
-```bash
-pip install flask
-pip install flask-cors
+1. Acesse: colab.research.google.com
+2. Novo notebook
+3. Cole o código
+4. Clique em ▶️ Executar
+5. Nenhuma instalação necessária!
 ```
 
-**Testar Instalação:**
-```python
-# teste.py
-from flask import Flask
-print("Flask instalado!")
+**Opção B: Python.org (Se tiver Python instalado)**
+```
+1. Crie pasta: chatbot_api
+2. Crie arquivo: app.py
+3. Abra terminal nesta pasta
+4. Execute: pip install flask
+```
+
+**Opção C: VS Code com Python**
+```
+1. Crie arquivo: app.py
+2. Terminal: pip install flask
+3. Execute: python app.py
 ```
 
 ### Meio (35 min)
 
-**Código Inicial - Fazer Juntos (20 min)**
+**Código Completo - Digite junto com o professor:**
 
 ```python
 from flask import Flask, jsonify, request
 
 app = Flask(__name__)
 
-# "Banco de dados" em memória
-perguntas_respostas = [
-    {
-        "id": 1,
-        "palavras_chave": ["laboratório", "lab", "onde fica"],
-        "resposta": "O laboratório fica no 1º andar, sala 205"
-    },
-    {
-        "id": 2,
-        "palavras_chave": ["horário", "hora", "abre", "fecha"],
-        "resposta": "Funcionamos de segunda a sexta, das 7h às 22h"
-    }
+# Lista de respostas (nosso "banco de dados")
+respostas = [
+    {"pergunta": "oi", "resposta": "Olá! Como posso ajudar?"},
+    {"pergunta": "horário", "resposta": "Funcionamos de segunda a sexta, 7h-22h"},
+    {"pergunta": "telefone", "resposta": "Nosso telefone: (11) 1234-5678"}
 ]
 
-# ===== ROTA 1: Página Inicial (Documentação) =====
-@app.route('/')
-def inicio():
-    """Mostra endpoints disponíveis"""
-    return jsonify({
-        "mensagem": "API do Chatbot",
-        "endpoints": {
-            "GET /": "Esta página",
-            "GET /respostas": "Lista todas respostas",
-            "POST /perguntar": "Fazer uma pergunta",
-            "POST /respostas": "Adicionar nova resposta"
-        }
+# Rota 1: Ver todas as respostas
+@app.route('/ver')
+def ver_todas():
+    return jsonify(respostas)
+
+# Rota 2: Perguntar ao bot
+@app.route('/perguntar')
+def perguntar():
+    # Pega a pergunta da URL (?p=oi)
+    pergunta = request.args.get('p', '').lower()
+
+    # Busca a resposta
+    for item in respostas:
+        if item['pergunta'] in pergunta:
+            return jsonify({"resposta": item['resposta']})
+
+    return jsonify({"resposta": "Não entendi. Tente outra pergunta."})
+
+# Rota 3: Adicionar resposta nova
+@app.route('/adicionar')
+def adicionar():
+    nova_pergunta = request.args.get('p', '')
+    nova_resposta = request.args.get('r', '')
+
+    respostas.append({
+        "pergunta": nova_pergunta,
+        "resposta": nova_resposta
     })
 
-# ===== ROTA 2: Listar Todas Respostas =====
-@app.route('/respostas', methods=['GET'])
-def listar_respostas():
-    """Lista todas as perguntas e respostas cadastradas"""
-    return jsonify(perguntas_respostas), 200
+    return jsonify({"mensagem": "Resposta adicionada!"})
 
-# ===== ROTA 3: Perguntar ao Bot =====
-@app.route('/perguntar', methods=['POST'])
-def perguntar():
-    """Recebe pergunta e retorna resposta"""
-    dados = request.json
-    pergunta = dados.get('pergunta', '').lower()
-    
-    # Buscar resposta por palavras-chave
-    for item in perguntas_respostas:
-        for palavra in item['palavras_chave']:
-            if palavra in pergunta:
-                return jsonify({
-                    'resposta': item['resposta'],
-                    'encontrado': True
-                }), 200
-    
-    # Nenhuma resposta encontrada
-    return jsonify({
-        'resposta': 'Desculpe, não entendi sua pergunta. Pode reformular?',
-        'encontrado': False
-    }), 200
-
-# ===== ROTA 4: Adicionar Nova Resposta =====
-@app.route('/respostas', methods=['POST'])
-def adicionar_resposta():
-    """Adiciona nova pergunta/resposta ao banco"""
-    dados = request.json
-    
-    # Validação básica
-    if 'palavras_chave' not in dados or 'resposta' not in dados:
-        return jsonify({
-            'erro': 'Campos obrigatórios: palavras_chave, resposta'
-        }), 400
-    
-    nova_resposta = {
-        'id': len(perguntas_respostas) + 1,
-        'palavras_chave': dados['palavras_chave'],
-        'resposta': dados['resposta']
-    }
-    
-    perguntas_respostas.append(nova_resposta)
-    
-    return jsonify({
-        'mensagem': 'Resposta adicionada com sucesso',
-        'dados': nova_resposta
-    }), 201
-
-# ===== INICIAR SERVIDOR =====
+# Iniciar servidor
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    app.run(debug=True)
 ```
 
-**Explicação Passo a Passo:**
+**O que cada parte faz:**
 
 ```
-1. IMPORTS
-   - Flask: framework principal
-   - jsonify: converte Python dict → JSON
-   - request: acessa dados da requisição
+1. LISTA DE RESPOSTAS
+   - Guarda perguntas e respostas
+   - Como uma lista de contatos no celular
 
-2. BANCO DE DADOS
-   - Lista Python como "banco"
-   - Estrutura: id, palavras_chave, resposta
-   - Em memória (perde ao reiniciar)
+2. ROTAS (URLs que a API responde)
+   /ver → mostra todas respostas
+   /perguntar?p=oi → faz uma pergunta
+   /adicionar?p=pergunta&r=resposta → adiciona nova resposta
 
-3. ROTAS
-   @app.route('/caminho', methods=['VERBO'])
-   - Define URL e método HTTP
-   - Função abaixo é executada
-
-4. RETORNOS
-   return jsonify(dados), status_code
-   - Primeiro: corpo da resposta
-   - Segundo: código HTTP (200, 201, 400, etc)
+3. COMO FUNCIONA
+   - Recebe pergunta pela URL
+   - Procura na lista
+   - Retorna resposta em JSON
 ```
 
-**Atividade em Grupo (15 min)**
+**Testando no navegador (15 min):**
 
 ```
-ADAPTAR PARA SEU CHATBOT
+DEPOIS DE EXECUTAR O CÓDIGO:
 
-1. Mudar perguntas_respostas para tema do grupo
-   Mínimo 5 pares de pergunta/resposta
+1. Abra o navegador
+2. Acesse: http://127.0.0.1:5000/ver
+   ✅ Deve mostrar todas as respostas
 
-2. Testar no navegador:
-   http://localhost:5000/
-   
-3. Verificar se JSON aparece
+3. Teste fazer pergunta:
+   http://127.0.0.1:5000/perguntar?p=oi
+   ✅ Deve responder "Olá! Como posso ajudar?"
 
-ENTREGAR ao final da aula:
-□ Link do Replit funcionando
-□ Print da rota "/" respondendo
-□ Lista das 5 perguntas cadastradas
+4. Teste adicionar:
+   http://127.0.0.1:5000/adicionar?p=email&r=contato@escola.com
+   ✅ Depois teste /ver de novo
 
-VALE 0,5 PONTOS
+5. PRÁTICA:
+   - Adicione 5 perguntas do seu tema
+   - Teste se funcionam
+   - Tire print das respostas
+```
+
+**ENTREGA (Vale 0,5 pontos):**
+```
+□ Código rodando
+□ 5 perguntas do tema do grupo funcionando
+□ Print da rota /ver mostrando suas perguntas
 ```
 
 ### Fim (5 min)
 
-**Verificação:**
-- Quantos grupos conseguiram rodar?
-- Dúvidas comuns?
-- Resolver problemas básicos
+**Checklist:**
+- [ ] Conseguiu rodar o código?
+- [ ] Entendeu como funciona?
+- [ ] Conseguiu adicionar perguntas?
 
 **Para próxima aula:**
-- API funcionando
-- Instalar Postman OU Thunder Client
-- Trazer lista de mais perguntas
+- Vamos testar de forma profissional (direto no navegador, sem instalar nada)
 
 ---
 
-## 🧪 AULA 4: Testando APIs
+## 🧪 AULA 4: Testando como profissional
 
 ### Início (10 min)
 
-**Ferramentas de Teste:**
+**Vamos testar só usando o NAVEGADOR!**
 
-**Opção 1: Thunder Client (VS Code)**
-```
-1. Abrir VS Code
-2. Extensions → "Thunder Client"
-3. Instalar
-4. Ícone ⚡ na barra lateral
-```
+Nenhuma instalação necessária. Só precisa:
+1. Sua API rodando (do código da aula 3)
+2. Navegador aberto
 
-**Opção 2: Postman**
+**Conceito importante:**
 ```
-1. Baixar: postman.com
-2. Criar conta (gratuito)
-3. New Request
+GET = pedir informação (como entrar num site)
+POST = enviar informação (não dá pra fazer só no navegador)
 ```
 
-**Opção 3: Online (Backup)**
-```
-httpie.io/app
-- Sem instalar nada
-- Direto no navegador
-```
+Como só usamos GET na nossa API, o navegador funciona perfeitamente!
 
 ### Meio (35 min)
 
-**Tutorial Postman/Thunder (20 min)**
+**TESTES PRÁTICOS (Fazer junto)**
 
-**Teste 1: GET - Listar Respostas**
+**Teste 1: Ver todas respostas**
 ```
-Método: GET
-URL: http://localhost:5000/respostas
+URL: http://127.0.0.1:5000/ver
 
-Botão: Send
-
-✅ Deve retornar: lista com todas perguntas
-✅ Status: 200 OK
+✅ Mostra lista completa
 ```
 
-**Teste 2: POST - Perguntar ao Bot**
+**Teste 2: Fazer 5 perguntas diferentes**
 ```
-Método: POST
-URL: http://localhost:5000/perguntar
+http://127.0.0.1:5000/perguntar?p=oi
+http://127.0.0.1:5000/perguntar?p=horário
+http://127.0.0.1:5000/perguntar?p=telefone
+http://127.0.0.1:5000/perguntar?p=email
+http://127.0.0.1:5000/perguntar?p=endereço
 
-Headers:
-  Content-Type: application/json
-
-Body → raw → JSON:
-{
-  "pergunta": "onde fica o laboratório?"
-}
-
-Botão: Send
-
-✅ Deve retornar: resposta do bot
-✅ Status: 200 OK
+✅ Cada uma deve retornar resposta diferente
+❌ Se não achar, retorna "Não entendi"
 ```
 
-**Teste 3: POST - Adicionar Resposta**
+**Teste 3: Adicionar 3 respostas novas**
 ```
-Método: POST
-URL: http://localhost:5000/respostas
+http://127.0.0.1:5000/adicionar?p=endereço&r=Rua ABC, 123
+http://127.0.0.1:5000/adicionar?p=email&r=contato@escola.com
+http://127.0.0.1:5000/adicionar?p=whatsapp&r=(11) 99999-9999
 
-Body:
-{
-  "palavras_chave": ["wifi", "internet", "senha"],
-  "resposta": "A senha do WiFi está no quadro de avisos"
-}
-
-Botão: Send
-
-✅ Deve retornar: mensagem de sucesso
-✅ Status: 201 Created
+Depois: acesse /ver para confirmar que foram adicionadas!
 ```
 
-**Teste 4: Validação de Erro**
-```
-Método: POST
-URL: http://localhost:5000/respostas
-
-Body:
-{
-  "palavras_chave": ["teste"]
-  // sem campo "resposta"
-}
-
-Botão: Send
-
-✅ Deve retornar: mensagem de erro
-✅ Status: 400 Bad Request
-```
-
-**Prática Individual (15 min)**
+**ATIVIDADE INDIVIDUAL (20 min)**
 
 ```
-EXERCÍCIO: Testar Sua API
+MISSÃO: Criar chatbot do seu tema
 
-1. Fazer 3 testes GET
-   - Listar respostas
-   - Verificar dados retornados
-   - Print do resultado
+1. Adicionar 10 perguntas úteis sobre seu tema
+   Exemplos de temas:
+   - Escola: matérias, professores, horários
+   - Loja: produtos, preços, formas de pagamento
+   - Restaurante: cardápio, horário, delivery
 
-2. Fazer 5 testes POST /perguntar
-   - Perguntas diferentes
-   - Algumas que funcionam
-   - Algumas que não funcionam
-   - Anotar resultados
+2. Testar TODAS as perguntas
 
-3. Adicionar 3 novas respostas via POST
-   - Confirmar que foram adicionadas
-   - Testar se funcionam
-
-ENTREGAR:
-□ Prints dos 3 testes principais
-□ Lista das 3 respostas adicionadas
-□ Observações sobre o que funcionou/não funcionou
+3. Tirar prints de:
+   - /ver com todas as 10 perguntas
+   - 3 perguntas sendo respondidas corretamente
+   - 1 pergunta que não tem resposta
 
 VALE 1,0 PONTO
 ```
 
 ### Fim (5 min)
 
-**Checklist de Entrega:**
+**ENTREGA FINAL:**
 ```
-□ API do chatbot rodando
-□ Pelo menos 8 perguntas cadastradas
-□ Testou com Postman/Thunder
-□ Prints dos testes salvos
-□ Link do Replit funcionando
-
-Se falta algo: completar agora!
+□ 10 perguntas cadastradas
+□ Prints dos testes
+□ Tudo funcionando
 ```
 
-**Próxima Semana:**
-- Integração com IA (Groq)
-- Respostas mais inteligentes
-- Chatbot de verdade
+**Próxima semana:**
+Adicionar inteligência artificial de verdade (ChatGPT/Groq) no seu chatbot!
 
 ---
 
-## 📊 Avaliação da Semana 2
+## 📊 Avaliação
 
 **Total: 1,5 pontos**
 
 | Atividade | Pontos |
 |-----------|--------|
-| API do chatbot funcionando (Aula 3) | 0,5 |
-| Testes com Postman (Aula 4) | 1,0 |
-
-**Critérios:**
-
-**API Funcionando (0,5):**
-- ✅ Roda sem erros: 0,3
-- ✅ Pelo menos 5 respostas: 0,1
-- ✅ Adaptado ao tema do grupo: 0,1
-
-**Testes (1,0):**
-- ✅ Testou todas rotas principais: 0,4
-- ✅ Adicionou respostas novas: 0,3
-- ✅ Documentou resultados: 0,3
+| API funcionando com 5 perguntas (Aula 3) | 0,5 |
+| 10 perguntas testadas (Aula 4) | 1,0 |
 
 ---
 
-## 🔧 Melhorias Opcionais
-
-**Para Avançados:**
-
-```python
-# Busca mais inteligente
-def buscar_resposta(pergunta):
-    """Busca com score de relevância"""
-    melhor_match = None
-    maior_score = 0
-    
-    for item in perguntas_respostas:
-        score = 0
-        for palavra in item['palavras_chave']:
-            if palavra in pergunta:
-                score += 1
-        
-        if score > maior_score:
-            maior_score = score
-            melhor_match = item
-    
-    return melhor_match
-
-# Tratamento de erros
-@app.errorhandler(404)
-def nao_encontrado(erro):
-    return jsonify({'erro': 'Rota não encontrada'}), 404
-
-@app.errorhandler(500)
-def erro_servidor(erro):
-    return jsonify({'erro': 'Erro interno do servidor'}), 500
-```
-
----
-
-## 💡 Problemas Comuns
+## 💡 Se der erro
 
 **"ModuleNotFoundError: flask"**
 ```bash
-Solução:
 pip install flask
-# ou
-pip3 install flask
 ```
 
-**"Address already in use"**
+**"Porta já em uso"**
 ```python
-Solução:
-# Mudar porta
-app.run(port=5001)  # ao invés de 5000
+# Mude a última linha para:
+app.run(debug=True, port=5001)
 ```
 
-**"Can't connect to localhost"**
+**"Não consegue acessar no navegador"**
 ```
-Soluções:
-1. Verificar se API está rodando
-2. Checar URL (http://localhost:5000)
-3. Ver mensagens de erro no terminal
-4. Usar 127.0.0.1:5000 ao invés de localhost
+1. Veja se o código está rodando (sem erros no terminal)
+2. Use: http://127.0.0.1:5000/ver
+3. Não use "localhost", use "127.0.0.1"
 ```
-
-**"CORS Error"**
-```python
-Solução:
-from flask_cors import CORS
-app = Flask(__name__)
-CORS(app)  # Adicionar esta linha
-```
-
----
-
-## 📚 Referências
-
-**Documentação:**
-- Flask: flask.palletsprojects.com
-- Postman: learning.postman.com
-- Thunder Client: thunderclient.com
-
-**Tutoriais:**
-- "Flask Básico" - Código Fonte TV
-- "API REST com Flask" - Programador BR
-- "Postman Tutorial" - FreeCodeCamp
 
 ---
 
@@ -452,19 +281,9 @@ CORS(app)  # Adicionar esta linha
 
 **Preparar para Semana 3:**
 
-1. **Melhorar API:**
-   - Adicionar mais 10 perguntas
-   - Testar exaustivamente
-   - Corrigir erros
-
-2. **Criar conta:**
-   - groq.com (IA gratuita)
-   - Guardar API key
-
-3. **Estudar (opcional):**
-   - O que são LLMs
-   - Como funcionam ChatGPT/Claude
-   - APIs de IA
+1. Sua API funcionando com 10+ perguntas
+2. Criar conta em: console.groq.com
+3. Guardar a chave de API do Groq
 
 **Próxima semana:**
-Seu chatbot vai ficar inteligente! 🤖
+Adicionar IA de verdade no chatbot!
