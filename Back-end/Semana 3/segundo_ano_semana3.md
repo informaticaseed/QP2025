@@ -78,7 +78,7 @@ app = Flask(__name__)
 CORS(app)
 
 # ===== CONFIGURAÇÃO GROQ =====
-GROQ_API_KEY = 'gsk_...'  # COLE SUA CHAVE AQUI
+GROQ_API_KEY = 'gsk_'  # COLE SUA CHAVE AQUI
 GROQ_URL = 'https://api.groq.com/openai/v1/chat/completions'
 
 # ===== CONTEXTO DO BOT =====
@@ -123,7 +123,7 @@ def chat_ia():
     
     # Montar payload para Groq
     payload = {
-        "model": "mixtral-8x7b-32768",  # Modelo gratuito
+        "model": "llama-3.1-8b-instant",  # Modelo gratuito
         "messages": [
             {
                 "role": "system",
