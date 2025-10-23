@@ -78,7 +78,7 @@ app = Flask(__name__)
 CORS(app)
 
 # ===== CONFIGURAÇÃO GROQ =====
-GROQ_API_KEY = 'gsk_'  # COLE SUA CHAVE AQUI
+GROQ_API_KEY = 'gsk_'  # COLE SUA CHAVE AQUI exemplo gsk_
 GROQ_URL = 'https://api.groq.com/openai/v1/chat/completions'
 
 # ===== CONTEXTO DO BOT =====
